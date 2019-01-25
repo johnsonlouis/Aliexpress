@@ -10,10 +10,18 @@
 		2C371FE321FB8A6100CDC8A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C371FE221FB8A6100CDC8A5 /* AppDelegate.swift */; };
 		2C371FE521FB8A6100CDC8A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C371FE421FB8A6100CDC8A5 /* ViewController.swift */; };
 		2C371FE821FB8A6100CDC8A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C371FE621FB8A6100CDC8A5 /* Main.storyboard */; };
-		2C371FEA21FB8A6700CDC8A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C371FE921FB8A6700CDC8A5 /* Assets.xcassets */; };
 		2C371FED21FB8A6700CDC8A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C371FEB21FB8A6700CDC8A5 /* LaunchScreen.storyboard */; };
 		2C371FF821FB8A6700CDC8A5 /* AliexpressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C371FF721FB8A6700CDC8A5 /* AliexpressTests.swift */; };
 		2C37200321FB8A6700CDC8A5 /* AliexpressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C37200221FB8A6700CDC8A5 /* AliexpressUITests.swift */; };
+		2C61127E21FBA19800B6A86D /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61127D21FBA19800B6A86D /* Mocks.swift */; };
+		2C9E3B9221FB916D009E696B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C9E3B9121FB916D009E696B /* Assets.xcassets */; };
+		2C9E3B9621FB9198009E696B /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9E3B9421FB9197009E696B /* Storyboards.swift */; };
+		2C9E3B9721FB9198009E696B /* GeneratedAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9E3B9521FB9197009E696B /* GeneratedAssets.swift */; };
+		2C9E3B9A21FB96A8009E696B /* CategoryRepositoryInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9E3B9921FB96A8009E696B /* CategoryRepositoryInput.swift */; };
+		2CDF2C6021FB90E6000A7221 /* Aliexpress-localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CDF2C5F21FB90E6000A7221 /* Aliexpress-localizable.strings */; };
+		3A26389AF434C460D9F10D73 /* Pods_AliexpressUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C763C4004FE65F62ECBDB40 /* Pods_AliexpressUITests.framework */; };
+		69A1329B027D1CEE48665BED /* Pods_AliexpressTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C2217ACD811E04268F7C96 /* Pods_AliexpressTests.framework */; };
+		D926D452001AD557279CB2F0 /* Pods_Aliexpress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E856C177B223E5776BC6CEF1 /* Pods_Aliexpress.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28A05826CD9FA7674657ECA2 /* Pods-Aliexpress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aliexpress.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aliexpress/Pods-Aliexpress.release.xcconfig"; sourceTree = "<group>"; };
 		2C371FDF21FB8A6100CDC8A5 /* Aliexpress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aliexpress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C371FE221FB8A6100CDC8A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C371FE421FB8A6100CDC8A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2C371FE721FB8A6100CDC8A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2C371FE921FB8A6700CDC8A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C371FEC21FB8A6700CDC8A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C371FEE21FB8A6700CDC8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C371FF321FB8A6700CDC8A5 /* AliexpressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliexpressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +55,20 @@
 		2C371FFE21FB8A6700CDC8A5 /* AliexpressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliexpressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C37200221FB8A6700CDC8A5 /* AliexpressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliexpressUITests.swift; sourceTree = "<group>"; };
 		2C37200421FB8A6700CDC8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C61127D21FBA19800B6A86D /* Mocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
+		2C763C4004FE65F62ECBDB40 /* Pods_AliexpressUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliexpressUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C9E3B9121FB916D009E696B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C9E3B9421FB9197009E696B /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		2C9E3B9521FB9197009E696B /* GeneratedAssets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratedAssets.swift; sourceTree = "<group>"; };
+		2C9E3B9921FB96A8009E696B /* CategoryRepositoryInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRepositoryInput.swift; sourceTree = "<group>"; };
+		2CDF2C5F21FB90E6000A7221 /* Aliexpress-localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = "Aliexpress-localizable.strings"; sourceTree = "<group>"; };
+		32A6A54633312F394F8A9328 /* Pods-AliexpressTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliexpressTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AliexpressTests/Pods-AliexpressTests.release.xcconfig"; sourceTree = "<group>"; };
+		34C2217ACD811E04268F7C96 /* Pods_AliexpressTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliexpressTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A7D7BB3BA92167E716A6D7 /* Pods-AliexpressUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliexpressUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AliexpressUITests/Pods-AliexpressUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBC9630076A1D1AAA81109B1 /* Pods-Aliexpress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aliexpress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aliexpress/Pods-Aliexpress.debug.xcconfig"; sourceTree = "<group>"; };
+		C20D594065ABBE6DC7E52D48 /* Pods-AliexpressTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliexpressTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AliexpressTests/Pods-AliexpressTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E856C177B223E5776BC6CEF1 /* Pods_Aliexpress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aliexpress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9D0DB6AE6D2306AA67857D /* Pods-AliexpressUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliexpressUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AliexpressUITests/Pods-AliexpressUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D926D452001AD557279CB2F0 /* Pods_Aliexpress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69A1329B027D1CEE48665BED /* Pods_AliexpressTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +92,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A26389AF434C460D9F10D73 /* Pods_AliexpressUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		091C367D118414BBC2EC4933 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBC9630076A1D1AAA81109B1 /* Pods-Aliexpress.debug.xcconfig */,
+				28A05826CD9FA7674657ECA2 /* Pods-Aliexpress.release.xcconfig */,
+				C20D594065ABBE6DC7E52D48 /* Pods-AliexpressTests.debug.xcconfig */,
+				32A6A54633312F394F8A9328 /* Pods-AliexpressTests.release.xcconfig */,
+				61A7D7BB3BA92167E716A6D7 /* Pods-AliexpressUITests.debug.xcconfig */,
+				EA9D0DB6AE6D2306AA67857D /* Pods-AliexpressUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2C08AC3121FB9AB0002AAC99 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2C371FE221FB8A6100CDC8A5 /* AppDelegate.swift */,
+				2C371FE421FB8A6100CDC8A5 /* ViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		2C371FD621FB8A6100CDC8A5 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +128,8 @@
 				2C371FF621FB8A6700CDC8A5 /* AliexpressTests */,
 				2C37200121FB8A6700CDC8A5 /* AliexpressUITests */,
 				2C371FE021FB8A6100CDC8A5 /* Products */,
+				091C367D118414BBC2EC4933 /* Pods */,
+				5D70DCC58E907B6EFF2785A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,10 +146,10 @@
 		2C371FE121FB8A6100CDC8A5 /* Aliexpress */ = {
 			isa = PBXGroup;
 			children = (
-				2C371FE221FB8A6100CDC8A5 /* AppDelegate.swift */,
-				2C371FE421FB8A6100CDC8A5 /* ViewController.swift */,
+				2C08AC3121FB9AB0002AAC99 /* Classes */,
+				2C9E3B9321FB9197009E696B /* Generated */,
+				2CDF2C5E21FB90BF000A7221 /* Ressources */,
 				2C371FE621FB8A6100CDC8A5 /* Main.storyboard */,
-				2C371FE921FB8A6700CDC8A5 /* Assets.xcassets */,
 				2C371FEB21FB8A6700CDC8A5 /* LaunchScreen.storyboard */,
 				2C371FEE21FB8A6700CDC8A5 /* Info.plist */,
 			);
@@ -110,6 +159,7 @@
 		2C371FF621FB8A6700CDC8A5 /* AliexpressTests */ = {
 			isa = PBXGroup;
 			children = (
+				2C61127A21FBA08C00B6A86D /* Generated */,
 				2C371FF721FB8A6700CDC8A5 /* AliexpressTests.swift */,
 				2C371FF921FB8A6700CDC8A5 /* Info.plist */,
 			);
@@ -125,6 +175,43 @@
 			path = AliexpressUITests;
 			sourceTree = "<group>";
 		};
+		2C61127A21FBA08C00B6A86D /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				2C61127D21FBA19800B6A86D /* Mocks.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		2C9E3B9321FB9197009E696B /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				2C9E3B9421FB9197009E696B /* Storyboards.swift */,
+				2C9E3B9521FB9197009E696B /* GeneratedAssets.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		2CDF2C5E21FB90BF000A7221 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				2C9E3B9121FB916D009E696B /* Assets.xcassets */,
+				2CDF2C5F21FB90E6000A7221 /* Aliexpress-localizable.strings */,
+				2C9E3B9921FB96A8009E696B /* CategoryRepositoryInput.swift */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		5D70DCC58E907B6EFF2785A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E856C177B223E5776BC6CEF1 /* Pods_Aliexpress.framework */,
+				34C2217ACD811E04268F7C96 /* Pods_AliexpressTests.framework */,
+				2C763C4004FE65F62ECBDB40 /* Pods_AliexpressUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C37200721FB8A6700CDC8A5 /* Build configuration list for PBXNativeTarget "Aliexpress" */;
 			buildPhases = (
+				69766B81C1213388A09C06C6 /* [CP] Check Pods Manifest.lock */,
 				2C371FDB21FB8A6100CDC8A5 /* Sources */,
 				2C371FDC21FB8A6100CDC8A5 /* Frameworks */,
 				2C371FDD21FB8A6100CDC8A5 /* Resources */,
+				D56953A68130414DD555E530 /* [CP] Embed Pods Frameworks */,
+				2CDF2C5D21FB8F85000A7221 /* SwiftGen */,
 			);
 			buildRules = (
 			);
@@ -149,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C37200A21FB8A6700CDC8A5 /* Build configuration list for PBXNativeTarget "AliexpressTests" */;
 			buildPhases = (
+				0F4FD4E37FEC006F1301AF57 /* [CP] Check Pods Manifest.lock */,
 				2C371FEF21FB8A6700CDC8A5 /* Sources */,
 				2C371FF021FB8A6700CDC8A5 /* Frameworks */,
 				2C371FF121FB8A6700CDC8A5 /* Resources */,
+				B87A37ADE3938FB3E9589819 /* [CP] Embed Pods Frameworks */,
+				2C9E3B9821FB94C3009E696B /* Sourcery */,
 			);
 			buildRules = (
 			);
@@ -167,6 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C37200D21FB8A6700CDC8A5 /* Build configuration list for PBXNativeTarget "AliexpressUITests" */;
 			buildPhases = (
+				C8AD9E71B8BA18218A78D514 /* [CP] Check Pods Manifest.lock */,
 				2C371FFA21FB8A6700CDC8A5 /* Sources */,
 				2C371FFB21FB8A6700CDC8A5 /* Frameworks */,
 				2C371FFC21FB8A6700CDC8A5 /* Resources */,
@@ -230,7 +324,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C371FED21FB8A6700CDC8A5 /* LaunchScreen.storyboard in Resources */,
-				2C371FEA21FB8A6700CDC8A5 /* Assets.xcassets in Resources */,
+				2CDF2C6021FB90E6000A7221 /* Aliexpress-localizable.strings in Resources */,
+				2C9E3B9221FB916D009E696B /* Assets.xcassets in Resources */,
 				2C371FE821FB8A6100CDC8A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,12 +346,166 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F4FD4E37FEC006F1301AF57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AliexpressTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C9E3B9821FB94C3009E696B /* Sourcery */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Sourcery;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./SourceryTemplates/sourcery.sh\n\n";
+		};
+		2CDF2C5D21FB8F85000A7221 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./SwiftGenTemplates/swiftgen.sh\n\n";
+		};
+		69766B81C1213388A09C06C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aliexpress-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B87A37ADE3938FB3E9589819 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AliexpressTests/Pods-AliexpressTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AliexpressTests/Pods-AliexpressTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8AD9E71B8BA18218A78D514 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AliexpressUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D56953A68130414DD555E530 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Aliexpress/Pods-Aliexpress-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aliexpress/Pods-Aliexpress-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C371FDB21FB8A6100CDC8A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C9E3B9A21FB96A8009E696B /* CategoryRepositoryInput.swift in Sources */,
+				2C9E3B9621FB9198009E696B /* Storyboards.swift in Sources */,
 				2C371FE521FB8A6100CDC8A5 /* ViewController.swift in Sources */,
+				2C9E3B9721FB9198009E696B /* GeneratedAssets.swift in Sources */,
 				2C371FE321FB8A6100CDC8A5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +515,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C371FF821FB8A6700CDC8A5 /* AliexpressTests.swift in Sources */,
+				2C61127E21FBA19800B6A86D /* Mocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,9 +680,11 @@
 		};
 		2C37200821FB8A6700CDC8A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC9630076A1D1AAA81109B1 /* Pods-Aliexpress.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Aliexpress/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +699,11 @@
 		};
 		2C37200921FB8A6700CDC8A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28A05826CD9FA7674657ECA2 /* Pods-Aliexpress.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Aliexpress/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,6 +718,7 @@
 		};
 		2C37200B21FB8A6700CDC8A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C20D594065ABBE6DC7E52D48 /* Pods-AliexpressTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +739,7 @@
 		};
 		2C37200C21FB8A6700CDC8A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32A6A54633312F394F8A9328 /* Pods-AliexpressTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +760,7 @@
 		};
 		2C37200E21FB8A6700CDC8A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A7D7BB3BA92167E716A6D7 /* Pods-AliexpressUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +780,7 @@
 		};
 		2C37200F21FB8A6700CDC8A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA9D0DB6AE6D2306AA67857D /* Pods-AliexpressUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
