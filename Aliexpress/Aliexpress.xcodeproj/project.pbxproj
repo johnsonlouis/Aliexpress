@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C371FE321FB8A6100CDC8A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C371FE221FB8A6100CDC8A5 /* AppDelegate.swift */; };
+		2C371FE521FB8A6100CDC8A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C371FE421FB8A6100CDC8A5 /* ViewController.swift */; };
+		2C371FE821FB8A6100CDC8A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C371FE621FB8A6100CDC8A5 /* Main.storyboard */; };
+		2C371FEA21FB8A6700CDC8A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C371FE921FB8A6700CDC8A5 /* Assets.xcassets */; };
+		2C371FED21FB8A6700CDC8A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C371FEB21FB8A6700CDC8A5 /* LaunchScreen.storyboard */; };
+		2C371FF821FB8A6700CDC8A5 /* AliexpressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C371FF721FB8A6700CDC8A5 /* AliexpressTests.swift */; };
+		2C37200321FB8A6700CDC8A5 /* AliexpressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C37200221FB8A6700CDC8A5 /* AliexpressUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C371FF421FB8A6700CDC8A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C371FD721FB8A6100CDC8A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C371FDE21FB8A6100CDC8A5;
+			remoteInfo = Aliexpress;
+		};
+		2C371FFF21FB8A6700CDC8A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C371FD721FB8A6100CDC8A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C371FDE21FB8A6100CDC8A5;
+			remoteInfo = Aliexpress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C371FDF21FB8A6100CDC8A5 /* Aliexpress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aliexpress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C371FE221FB8A6100CDC8A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C371FE421FB8A6100CDC8A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C371FE721FB8A6100CDC8A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C371FE921FB8A6700CDC8A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C371FEC21FB8A6700CDC8A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C371FEE21FB8A6700CDC8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C371FF321FB8A6700CDC8A5 /* AliexpressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliexpressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C371FF721FB8A6700CDC8A5 /* AliexpressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliexpressTests.swift; sourceTree = "<group>"; };
+		2C371FF921FB8A6700CDC8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C371FFE21FB8A6700CDC8A5 /* AliexpressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliexpressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C37200221FB8A6700CDC8A5 /* AliexpressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliexpressUITests.swift; sourceTree = "<group>"; };
+		2C37200421FB8A6700CDC8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C371FDC21FB8A6100CDC8A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C371FF021FB8A6700CDC8A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C371FFB21FB8A6700CDC8A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C371FD621FB8A6100CDC8A5 = {
+			isa = PBXGroup;
+			children = (
+				2C371FE121FB8A6100CDC8A5 /* Aliexpress */,
+				2C371FF621FB8A6700CDC8A5 /* AliexpressTests */,
+				2C37200121FB8A6700CDC8A5 /* AliexpressUITests */,
+				2C371FE021FB8A6100CDC8A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C371FE021FB8A6100CDC8A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C371FDF21FB8A6100CDC8A5 /* Aliexpress.app */,
+				2C371FF321FB8A6700CDC8A5 /* AliexpressTests.xctest */,
+				2C371FFE21FB8A6700CDC8A5 /* AliexpressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C371FE121FB8A6100CDC8A5 /* Aliexpress */ = {
+			isa = PBXGroup;
+			children = (
+				2C371FE221FB8A6100CDC8A5 /* AppDelegate.swift */,
+				2C371FE421FB8A6100CDC8A5 /* ViewController.swift */,
+				2C371FE621FB8A6100CDC8A5 /* Main.storyboard */,
+				2C371FE921FB8A6700CDC8A5 /* Assets.xcassets */,
+				2C371FEB21FB8A6700CDC8A5 /* LaunchScreen.storyboard */,
+				2C371FEE21FB8A6700CDC8A5 /* Info.plist */,
+			);
+			path = Aliexpress;
+			sourceTree = "<group>";
+		};
+		2C371FF621FB8A6700CDC8A5 /* AliexpressTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C371FF721FB8A6700CDC8A5 /* AliexpressTests.swift */,
+				2C371FF921FB8A6700CDC8A5 /* Info.plist */,
+			);
+			path = AliexpressTests;
+			sourceTree = "<group>";
+		};
+		2C37200121FB8A6700CDC8A5 /* AliexpressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C37200221FB8A6700CDC8A5 /* AliexpressUITests.swift */,
+				2C37200421FB8A6700CDC8A5 /* Info.plist */,
+			);
+			path = AliexpressUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C371FDE21FB8A6100CDC8A5 /* Aliexpress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C37200721FB8A6700CDC8A5 /* Build configuration list for PBXNativeTarget "Aliexpress" */;
+			buildPhases = (
+				2C371FDB21FB8A6100CDC8A5 /* Sources */,
+				2C371FDC21FB8A6100CDC8A5 /* Frameworks */,
+				2C371FDD21FB8A6100CDC8A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aliexpress;
+			productName = Aliexpress;
+			productReference = 2C371FDF21FB8A6100CDC8A5 /* Aliexpress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C371FF221FB8A6700CDC8A5 /* AliexpressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C37200A21FB8A6700CDC8A5 /* Build configuration list for PBXNativeTarget "AliexpressTests" */;
+			buildPhases = (
+				2C371FEF21FB8A6700CDC8A5 /* Sources */,
+				2C371FF021FB8A6700CDC8A5 /* Frameworks */,
+				2C371FF121FB8A6700CDC8A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C371FF521FB8A6700CDC8A5 /* PBXTargetDependency */,
+			);
+			name = AliexpressTests;
+			productName = AliexpressTests;
+			productReference = 2C371FF321FB8A6700CDC8A5 /* AliexpressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C371FFD21FB8A6700CDC8A5 /* AliexpressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C37200D21FB8A6700CDC8A5 /* Build configuration list for PBXNativeTarget "AliexpressUITests" */;
+			buildPhases = (
+				2C371FFA21FB8A6700CDC8A5 /* Sources */,
+				2C371FFB21FB8A6700CDC8A5 /* Frameworks */,
+				2C371FFC21FB8A6700CDC8A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C37200021FB8A6700CDC8A5 /* PBXTargetDependency */,
+			);
+			name = AliexpressUITests;
+			productName = AliexpressUITests;
+			productReference = 2C371FFE21FB8A6700CDC8A5 /* AliexpressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C371FD721FB8A6100CDC8A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Johnson-Richie Louis";
+				TargetAttributes = {
+					2C371FDE21FB8A6100CDC8A5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2C371FF221FB8A6700CDC8A5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2C371FDE21FB8A6100CDC8A5;
+					};
+					2C371FFD21FB8A6700CDC8A5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2C371FDE21FB8A6100CDC8A5;
+					};
+				};
+			};
+			buildConfigurationList = 2C371FDA21FB8A6100CDC8A5 /* Build configuration list for PBXProject "Aliexpress" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C371FD621FB8A6100CDC8A5;
+			productRefGroup = 2C371FE021FB8A6100CDC8A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C371FDE21FB8A6100CDC8A5 /* Aliexpress */,
+				2C371FF221FB8A6700CDC8A5 /* AliexpressTests */,
+				2C371FFD21FB8A6700CDC8A5 /* AliexpressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C371FDD21FB8A6100CDC8A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C371FED21FB8A6700CDC8A5 /* LaunchScreen.storyboard in Resources */,
+				2C371FEA21FB8A6700CDC8A5 /* Assets.xcassets in Resources */,
+				2C371FE821FB8A6100CDC8A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C371FF121FB8A6700CDC8A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C371FFC21FB8A6700CDC8A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C371FDB21FB8A6100CDC8A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C371FE521FB8A6100CDC8A5 /* ViewController.swift in Sources */,
+				2C371FE321FB8A6100CDC8A5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C371FEF21FB8A6700CDC8A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C371FF821FB8A6700CDC8A5 /* AliexpressTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C371FFA21FB8A6700CDC8A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C37200321FB8A6700CDC8A5 /* AliexpressUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C371FF521FB8A6700CDC8A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C371FDE21FB8A6100CDC8A5 /* Aliexpress */;
+			targetProxy = 2C371FF421FB8A6700CDC8A5 /* PBXContainerItemProxy */;
+		};
+		2C37200021FB8A6700CDC8A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C371FDE21FB8A6100CDC8A5 /* Aliexpress */;
+			targetProxy = 2C371FFF21FB8A6700CDC8A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C371FE621FB8A6100CDC8A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C371FE721FB8A6100CDC8A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C371FEB21FB8A6700CDC8A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C371FEC21FB8A6700CDC8A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C37200521FB8A6700CDC8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C37200621FB8A6700CDC8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C37200821FB8A6700CDC8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Aliexpress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chichi29.Aliexpress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C37200921FB8A6700CDC8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Aliexpress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chichi29.Aliexpress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C37200B21FB8A6700CDC8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AliexpressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chichi29.AliexpressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aliexpress.app/Aliexpress";
+			};
+			name = Debug;
+		};
+		2C37200C21FB8A6700CDC8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AliexpressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chichi29.AliexpressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aliexpress.app/Aliexpress";
+			};
+			name = Release;
+		};
+		2C37200E21FB8A6700CDC8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AliexpressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chichi29.AliexpressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aliexpress;
+			};
+			name = Debug;
+		};
+		2C37200F21FB8A6700CDC8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AliexpressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chichi29.AliexpressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aliexpress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C371FDA21FB8A6100CDC8A5 /* Build configuration list for PBXProject "Aliexpress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C37200521FB8A6700CDC8A5 /* Debug */,
+				2C37200621FB8A6700CDC8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C37200721FB8A6700CDC8A5 /* Build configuration list for PBXNativeTarget "Aliexpress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C37200821FB8A6700CDC8A5 /* Debug */,
+				2C37200921FB8A6700CDC8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C37200A21FB8A6700CDC8A5 /* Build configuration list for PBXNativeTarget "AliexpressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C37200B21FB8A6700CDC8A5 /* Debug */,
+				2C37200C21FB8A6700CDC8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C37200D21FB8A6700CDC8A5 /* Build configuration list for PBXNativeTarget "AliexpressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C37200E21FB8A6700CDC8A5 /* Debug */,
+				2C37200F21FB8A6700CDC8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C371FD721FB8A6100CDC8A5 /* Project object */;
+}
