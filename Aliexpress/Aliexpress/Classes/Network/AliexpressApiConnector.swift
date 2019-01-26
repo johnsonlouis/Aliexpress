@@ -13,7 +13,7 @@ struct AliexpressApiConnector: ApiConnector {
   
   func request(with request: ApiRequestProtocol, success: @escaping (ApiResponseProtocol) -> Void, failure: @escaping (ApiError) -> Void) {
     Alamofire.request(request.endpoint,
-                      method: .post,
+                      method: request.method == .post ? .post : .get,
                       parameters: request.parameters,
                       encoding: JSONEncoding.default,
                       headers: request.headers).validate().responseData { response in

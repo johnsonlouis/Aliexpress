@@ -194,13 +194,10 @@
 		2C08AC3121FB9AB0002AAC99 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2CB3A37A21FC201200E82209 /* AliexpressApiConnector.swift */,
-				2CB3A39921FC8CBB00E82209 /* AliexpressImageLoader.swift */,
-				2CB3A36521FBCDC400E82209 /* ApiConnector.swift */,
 				2C371FE221FB8A6100CDC8A5 /* AppDelegate.swift */,
-				2CB3A39721FC8BB900E82209 /* ImageLoader.swift */,
 				2CB3A39121FC80FD00E82209 /* String+ NSLocalizedString.swift */,
 				2CB3A32821FBA54D00E82209 /* Categories */,
+				2CB3A3AF21FD167800E82209 /* Network */,
 				2CB3A32A21FBA56A00E82209 /* ProductDetails */,
 				2CB3A32921FBA55600E82209 /* ProductsList */,
 				2CB3A3A221FCD55F00E82209 /* Routeur */,
@@ -274,9 +271,9 @@
 		2C9E3B9321FB9197009E696B /* Generated */ = {
 			isa = PBXGroup;
 			children = (
+				2C9E3B9521FB9197009E696B /* GeneratedAssets.swift */,
 				2CB3A38F21FC7EB400E82209 /* GeneratedLocalizableStrings.swift */,
 				2C9E3B9421FB9197009E696B /* Storyboards.swift */,
-				2C9E3B9521FB9197009E696B /* GeneratedAssets.swift */,
 			);
 			path = Generated;
 			sourceTree = "<group>";
@@ -470,11 +467,22 @@
 			path = Routeur;
 			sourceTree = "<group>";
 		};
+		2CB3A3AF21FD167800E82209 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2CB3A37A21FC201200E82209 /* AliexpressApiConnector.swift */,
+				2CB3A39921FC8CBB00E82209 /* AliexpressImageLoader.swift */,
+				2CB3A36521FBCDC400E82209 /* ApiConnector.swift */,
+				2CB3A39721FC8BB900E82209 /* ImageLoader.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		2CDF2C5E21FB90BF000A7221 /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
-				2C9E3B9121FB916D009E696B /* Assets.xcassets */,
 				2CDF2C5F21FB90E6000A7221 /* Aliexpress-localizable.strings */,
+				2C9E3B9121FB916D009E696B /* Assets.xcassets */,
 			);
 			path = Ressources;
 			sourceTree = "<group>";
