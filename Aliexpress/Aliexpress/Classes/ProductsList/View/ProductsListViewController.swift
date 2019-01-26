@@ -10,6 +10,13 @@ import UIKit
 
 class ProductsListViewController: UIViewController {
   
+  // MARK: - Enum
+  
+  private enum Constants {
+    static let cellIdentifier = "ProductCollectionViewCell"
+    static let padding: CGFloat = 40
+  }
+  
   // MARK: - IBOutlets
   
   @IBOutlet weak var collectionView: UICollectionView!
@@ -36,14 +43,25 @@ class ProductsListViewController: UIViewController {
   private func showLoader() {
     UIApplication.shared.isNetworkActivityIndicatorVisible = true
   }
+  
+  private func showAlert(with message: String) {
+    let alert = UIAlertController(title: L10n.Alert.title, message: message, preferredStyle: .alert)
+    alert.addAction(UIAlertAction(title: L10n.Alert.close, style: .default, handler: nil))
+    self.present(alert, animated: true, completion: nil)
+  }
 }
 
 // MARK: - ProductsListPresenterOutput
 
 extension ProductsListViewController: ProductsListPresenterOutput {
   
-  func displayError() {
+  func displayError(_ message: String) {
     hideLoader()
+    showAlert(with: message)
+  }
+  
+  func displayTitle(_ title: String) {
+    self.title = title
   }
   
   func reloaData() {
@@ -79,7 +97,7 @@ extension ProductsListViewController: UICollectionViewDataSource {
   }
   
   func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-    guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ProductCollectionViewCell", for: indexPath) as? ProductCollectionViewCell else {
+    guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: Constants.cellIdentifier, for: indexPath) as? ProductCollectionViewCell else {
       return UICollectionViewCell()
     }
     let viewModel = presenter.viewModelForRow(atIndexPath: indexPath)
@@ -93,8 +111,8 @@ extension ProductsListViewController: UICollectionViewDataSource {
 
 extension ProductsListViewController: UICollectionViewDelegateFlowLayout {
   func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-    let padding: CGFloat = 40
+    let padding: CGFloat = Constants.padding
     let collectionViewSize = collectionView.frame.size.width - padding
-    return CGSize(width: collectionViewSize/2, height: collectionViewSize/2)
+    return CGSize(width: collectionViewSize/2, height: 250)
   }
 }

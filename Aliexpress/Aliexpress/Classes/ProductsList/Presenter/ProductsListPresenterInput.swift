@@ -21,4 +21,6 @@ protocol ProductsListPresenterInput {
 /// sourcery: AutoMockable
 protocol ProductsListCellViewModelProtocol {
   var imageUrl: String? { get }
+  var title: String { get }
+  var price: String? { get } 
 }

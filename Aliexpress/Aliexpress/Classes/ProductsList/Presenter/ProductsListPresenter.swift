@@ -34,6 +34,7 @@ extension ProductsListPresenter: ProductsListPresenterInput {
   
   func viewDidLoad() {
     interactor.retrieve()
+    output.displayTitle(L10n.ProductsList.title)
   }
   
   func didSelectRow(atIndexPath indexPath: IndexPath) {
@@ -50,7 +51,13 @@ extension ProductsListPresenter: ProductsListPresenterInput {
   
   func viewModelForRow(atIndexPath indexPath: IndexPath) -> ProductsListCellViewModelProtocol {
     let item = interactor.item(atIndex: indexPath.row, forCategoryIndex: indexPath.section)
-    return ProductsListCellViewModel(imageUrl: item.imageUrl)
+    var priceString: String? = nil
+    if let price = item.price, let currency = price.currency, let value = price.value {
+      priceString = "\(value) \(currency)"
+    }
+    return ProductsListCellViewModel(imageUrl: item.imageUrl,
+                                     title: item.title,
+                                     price: priceString)
   }
 }
 
@@ -63,7 +70,7 @@ extension ProductsListPresenter: ProductsListInteractorOutput {
   }
   
   func didReceiveError() {
-    output.displayError()
+    output.displayError(L10n.Tehnical.Error.message)
   }
   
   func didReceive() {
@@ -75,4 +82,6 @@ extension ProductsListPresenter: ProductsListInteractorOutput {
 
 private struct ProductsListCellViewModel: ProductsListCellViewModelProtocol {
   var imageUrl: String?
+  var title: String
+  var price: String?
 }

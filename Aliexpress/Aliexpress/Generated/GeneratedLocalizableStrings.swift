@@ -12,6 +12,13 @@ import Foundation
 // swiftlint:disable nesting type_body_length type_name
 internal enum L10n {
 
+  internal enum Alert {
+    /// Close
+    internal static let close = L10n.tr("Aliexpress-localizable", "alert.close")
+    /// Aliexpress
+    internal static let title = L10n.tr("Aliexpress-localizable", "alert.title")
+  }
+
   internal enum CategoriesList {
     /// Choose a category
     internal static let title = L10n.tr("Aliexpress-localizable", "categoriesList.title")
@@ -68,6 +75,18 @@ internal enum L10n {
         /// Computer & Office
         internal static let _7 = L10n.tr("Aliexpress-localizable", "categoriesList.title.id.7")
       }
+    }
+  }
+
+  internal enum ProductsList {
+    /// Choose a product
+    internal static let title = L10n.tr("Aliexpress-localizable", "productsList.title")
+  }
+
+  internal enum Tehnical {
+    internal enum Error {
+      /// An error occured, try again
+      internal static let message = L10n.tr("Aliexpress-localizable", "tehnical.error.message")
     }
   }
 }

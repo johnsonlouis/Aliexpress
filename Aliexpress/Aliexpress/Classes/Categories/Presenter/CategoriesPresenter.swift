@@ -30,6 +30,7 @@ extension CategoriesPresenter: CategoriesPresenterInput {
   
   func viewDidLoad() {
     interactor.retrieve()
+    output.displayTitle(L10n.CategoriesList.title)
   }
   
   func didSelectRow(atIndexPath indexPath: IndexPath) {

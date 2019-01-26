@@ -6,7 +6,11 @@
   Copyright © 2019 Johnson-Richie Louis. All rights reserved.
 */
 
+"alert.title" = "Aliexpress";
+"alert.close" = "Close";
 "categoriesList.title" = "Choose a category";
+"productsList.title" = "Choose a product";
+"tehnical.error.message" = "An error occured, try again";
 "categoriesList.title.id.100003070" = "Apparel for Men";
 "categoriesList.title.id.100003109" = "Apparel for Women";
 "categoriesList.title.id.34" = "Automobiles & Motorcycles";

@@ -11,4 +11,5 @@ import Foundation
 /// sourcery: AutoMockable
 protocol CategoriesPresenterOutput: class {
   func reloadData()
+  func displayTitle(_ title: String)
 }

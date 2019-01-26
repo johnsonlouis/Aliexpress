@@ -11,5 +11,6 @@ import Foundation
 /// sourcery: AutoMockable
 protocol ProductsListPresenterOutput: class {
   func reloaData()
-  func displayError()
+  func displayError(_ message: String)
+  func displayTitle(_ title: String)
 }

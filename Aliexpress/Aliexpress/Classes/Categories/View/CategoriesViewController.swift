@@ -32,6 +32,10 @@ class CategoriesViewController: UIViewController {
 
 extension CategoriesViewController: CategoriesPresenterOutput {
   
+  func displayTitle(_ title: String) {
+    self.title = title
+  }
+  
   func reloadData() {
     tableView.reloadData()
   }
