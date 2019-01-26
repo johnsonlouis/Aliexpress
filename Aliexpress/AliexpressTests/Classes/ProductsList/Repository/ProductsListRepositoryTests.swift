@@ -220,7 +220,7 @@ class ProductsListRepositoryTests: XCTestCase {
     // Then
     let request = self.apiConnector.requestWithSuccessFailureReceivedArguments!.request
     expect(request).toNot(beNil())
-    expect(request.endpoint).to(equal("https://api.aliseeks.com/v1/search"))
+    expect(request.endpoint).to(equal("https://api.aliseeks.com/v1/search/realtime"))
     expect(request.method).to(equal(.post))
     expect(request.headers).toNot(beNil())
     expect(request.parameters).toNot(beNil())

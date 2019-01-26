@@ -1,25 +1,18 @@
-# Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
-
 target 'Aliexpress' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  use_frameworks!
   pod 'Alamofire', '~> 4.8.1'
   pod 'Sourcery', '~> 0.15.0'
   pod 'SwiftGen', '~> 6.0.2'
   pod 'Kingfisher', '~> 5.1'
   pod 'SwiftLint', '~> 0.30.0'
-  # Pods for Aliexpress
 
   target 'AliexpressTests' do
-    use_frameworks!
     pod 'Sourcery', '~> 0.15.0'
     pod 'Nimble', '~> 7.3'
   end
 
   target 'AliexpressUITests' do
     inherit! :search_paths
-    # Pods for testing
   end
 
 end

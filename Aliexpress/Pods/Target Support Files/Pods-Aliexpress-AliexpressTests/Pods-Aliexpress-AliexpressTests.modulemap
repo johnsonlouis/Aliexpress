@@ -1,4 +1,4 @@
-framework module Pods_Aliexpress_AliexpressTests {
+module Pods_Aliexpress_AliexpressTests {
   umbrella header "Pods-Aliexpress-AliexpressTests-umbrella.h"
 
   export *
