@@ -29,6 +29,7 @@ class ProductsListRepository {
     static let sortDirection = "sortDirection"
     static let contentType = "Content-Type"
     static let apiClientId = "X-API-CLIENT-ID"
+    static let scrollIdentifier = "scrollIdentifier"
   }
   
   // MARK: - Property
@@ -60,6 +61,7 @@ class ProductsListRepository {
     if let limit = parameters.limit { parametersDictionary[Keys.limit] = limit }
     if let skip = parameters.skip { parametersDictionary[Keys.skip] = skip }
     if let sortDirection = parameters.sortDirection { parametersDictionary[Keys.sortDirection] = sortDirection }
+    if let scrollIdentifier = parameters.scrollIdentifier { parametersDictionary[Keys.scrollIdentifier] = scrollIdentifier }
     return !parametersDictionary.isEmpty ? parametersDictionary : nil
   }
   

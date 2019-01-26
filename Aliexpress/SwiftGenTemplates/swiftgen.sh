@@ -13,7 +13,7 @@ mkdir -p ${RESSOURCES_DIRECTORY}
     --param AppModule=Aliexpress
 ./Pods/SwiftGen/bin/swiftgen strings \
     -t structured-swift4 \
-    $RESSOURCES_DIRECTORY/Localizable/en.lproj/Aliexpress-localizable.strings \
+    $RESSOURCES_DIRECTORY/Aliexpress-localizable.strings \
     --output $GENERATED_DIRECTORY/GeneratedLocalizableStrings.swift
 ./Pods/SwiftGen/bin/swiftgen xcassets \
     -t swift4 \

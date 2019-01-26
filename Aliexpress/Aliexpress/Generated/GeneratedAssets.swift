@@ -18,6 +18,8 @@
 
 // swiftlint:disable identifier_name line_length nesting type_body_length type_name
 internal enum Asset {
+  internal static let aliexpressLogo = ImageAsset(name: "aliexpress_logo")
+  internal static let placeholder = ImageAsset(name: "placeholder")
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
 

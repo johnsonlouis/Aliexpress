@@ -34,6 +34,20 @@
                ReferencedContainer = "container:Aliexpress.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2C371FFD21FB8A6700CDC8A5"
+               BuildableName = "AliexpressUITests.xctest"
+               BlueprintName = "AliexpressUITests"
+               ReferencedContainer = "container:Aliexpress.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -60,16 +74,6 @@
                BlueprintIdentifier = "2C371FF221FB8A6700CDC8A5"
                BuildableName = "AliexpressTests.xctest"
                BlueprintName = "AliexpressTests"
-               ReferencedContainer = "container:Aliexpress.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2C371FFD21FB8A6700CDC8A5"
-               BuildableName = "AliexpressUITests.xctest"
-               BlueprintName = "AliexpressUITests"
                ReferencedContainer = "container:Aliexpress.xcodeproj">
             </BuildableReference>
          </TestableReference>

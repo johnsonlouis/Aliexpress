@@ -10,6 +10,5 @@ import Foundation
 
 /// sourcery: AutoMockable
 protocol CategoriesRepositoryInput {
-  
   func fetch(success: @escaping ([CategoriesRepositoryResponseProtocol]) -> Void, failure: @escaping (CategoriesRepositoryError) -> Void)
 }

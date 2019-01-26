@@ -30,7 +30,7 @@ class ProductsListRepositoryTests: XCTestCase {
   
   func test_whenFetch_thenRequestWithSuccessFailureCalled() {
     // Given
-    let parameters = ProductsListRepositoryParametersMock()
+    let parameters = ProductsListRepositoryParametersProtocolMock()
     
     // When
     repository.fetch(with: parameters, success: { _ in }, failure: { _ in })
@@ -45,7 +45,7 @@ class ProductsListRepositoryTests: XCTestCase {
       failure(.forbidden)
     }
     
-    let parameters = ProductsListRepositoryParametersMock()
+    let parameters = ProductsListRepositoryParametersProtocolMock()
     
     // When
     var expectedValue: ProductsListRepositoryError?
@@ -63,7 +63,7 @@ class ProductsListRepositoryTests: XCTestCase {
       failure(.requestBody)
     }
     
-    let parameters = ProductsListRepositoryParametersMock()
+    let parameters = ProductsListRepositoryParametersProtocolMock()
     
     // When
     var expectedValue: ProductsListRepositoryError?
@@ -81,7 +81,7 @@ class ProductsListRepositoryTests: XCTestCase {
       failure(.allowableCallCount)
     }
     
-    let parameters = ProductsListRepositoryParametersMock()
+    let parameters = ProductsListRepositoryParametersProtocolMock()
     
     // When
     var expectedValue: ProductsListRepositoryError?
@@ -99,7 +99,7 @@ class ProductsListRepositoryTests: XCTestCase {
       failure(.server)
     }
     
-    let parameters = ProductsListRepositoryParametersMock()
+    let parameters = ProductsListRepositoryParametersProtocolMock()
     
     // When
     var expectedValue: ProductsListRepositoryError?
@@ -117,7 +117,7 @@ class ProductsListRepositoryTests: XCTestCase {
       failure(.other(666))
     }
     
-    let parameters = ProductsListRepositoryParametersMock()
+    let parameters = ProductsListRepositoryParametersProtocolMock()
     
     // When
     var expectedValue: ProductsListRepositoryError?
@@ -135,7 +135,7 @@ class ProductsListRepositoryTests: XCTestCase {
     let response = ApiResponseProtocolMock()
     response.data = File.read(filename: "error-mock")!
     
-    let parameters = ProductsListRepositoryParametersMock()
+    let parameters = ProductsListRepositoryParametersProtocolMock()
     
     apiConnector.requestWithSuccessFailureClosure = { _, success, _ in
       success(response)
@@ -156,7 +156,7 @@ class ProductsListRepositoryTests: XCTestCase {
     let response = ApiResponseProtocolMock()
     response.data = File.read(filename: "products-list-mock")!
     
-    let parameters = ProductsListRepositoryParametersMock()
+    let parameters = ProductsListRepositoryParametersProtocolMock()
 
     apiConnector.requestWithSuccessFailureClosure = { _, success, _ in
       success(response)
@@ -200,7 +200,7 @@ class ProductsListRepositoryTests: XCTestCase {
     let response = ApiResponseProtocolMock()
     response.data = File.read(filename: "products-list-mock")!
     
-    let parameters = ProductsListRepositoryParametersMock()
+    let parameters = ProductsListRepositoryParametersProtocolMock()
     parameters.text = "An apple"
     parameters.sort = "A sort"
     parameters.currency = "USD"

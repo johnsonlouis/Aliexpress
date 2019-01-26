@@ -8,11 +8,9 @@
 
 import Foundation
 
-/// sourcery: AutoMockable
-protocol ApiConnector {
-  func request(with request: ApiRequestProtocol,
-               success: @escaping (ApiResponseProtocol) -> Void,
-               failure: @escaping (ApiError) -> Void)
+enum ApiMethod {
+  case post
+  case get
 }
 
 enum ApiError: Error {
@@ -43,16 +41,18 @@ enum ApiError: Error {
 }
 
 /// sourcery: AutoMockable
+protocol ApiConnector {
+  func request(with request: ApiRequestProtocol,
+               success: @escaping (ApiResponseProtocol) -> Void,
+               failure: @escaping (ApiError) -> Void)
+}
+
+/// sourcery: AutoMockable
 protocol ApiRequestProtocol {
   var endpoint: String { get }
   var method: ApiMethod { get }
   var parameters: [String: Any]? { get }
   var headers: [String: String]? { get }
-}
-
-enum ApiMethod {
-  case post
-  case get
 }
 
 /// sourcery: AutoMockable

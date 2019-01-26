@@ -48,6 +48,8 @@ extension CategoriesRepository: CategoriesRepositoryInput {
   }
 }
 
+// MARK: - Private struct
+
 private struct CategoriesRepositoryResponse: CategoriesRepositoryResponseProtocol {
   var categoryId: Int
 }

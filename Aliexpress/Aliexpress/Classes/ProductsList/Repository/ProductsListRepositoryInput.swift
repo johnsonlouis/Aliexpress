@@ -25,4 +25,5 @@ protocol ProductsListRepositoryParametersProtocol {
   var limit: Int? { get }
   var scrollPagination: Bool? { get }
   var sortDirection: String? { get }
+  var scrollIdentifier: String? { get }
 }

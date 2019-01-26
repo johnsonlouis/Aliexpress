@@ -8,11 +8,13 @@
 
 import Foundation
 
+/// sourcery: AutoMockable
 protocol CategoriesInteractorOutput: class {
   func didRetrieve(cateogories: [CategoryItemProtocol])
   func didSelectItem(_ item: CategoryItemProtocol, atIndex index: Int, forCategoryIndex categoryIndex: Int)
 }
 
+/// sourcery: AutoMockable
 protocol CategoryItemProtocol {
   var categoryId: Int { get }
 }

@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// sourcery: AutoMockable
 protocol CategoriesInteractorInput {
   func retrieve()
   func numberOfCategories() -> Int

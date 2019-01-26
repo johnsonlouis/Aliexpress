@@ -5,3 +5,30 @@
   Created by Johnson-Richie Louis on 25/01/2019.
   Copyright © 2019 Johnson-Richie Louis. All rights reserved.
 */
+
+"categoriesList.title" = "Choose a category";
+"categoriesList.title.id.100003070" = "Apparel for Men";
+"categoriesList.title.id.100003109" = "Apparel for Women";
+"categoriesList.title.id.34" = "Automobiles & Motorcycles";
+"categoriesList.title.id.66" = "Beauty & Health";
+"categoriesList.title.id.509" = "Cellphones & Telecommunications";
+"categoriesList.title.id.7"  = "Computer & Office";
+"categoriesList.title.id.44" = "Consumer Electronics";
+"categoriesList.title.id.502" = "Electronic Components & Supplies";
+"categoriesList.title.id.1503" = "Furniture";
+"categoriesList.title.id.200002489" = "Hair Extensions & Wigs";
+"categoriesList.title.id.15" = "Home & Garden";
+"categoriesList.title.id.13" = "Home Improvement";
+"categoriesList.title.id.1509" = "Jewelry & Accessories";
+"categoriesList.title.id.1524" = "Luggage & Bags";
+"categoriesList.title.id.1501" = "Mother & Kids";
+"categoriesList.title.id.200000875" = "Novelty & Special Use";
+"categoriesList.title.id.21" = "Office & School";
+"categoriesList.title.id.30" = "Security & Protection";
+"categoriesList.title.id.322" = "Shoes";
+"categoriesList.title.id.18" = "Sports & Entertainment";
+"categoriesList.title.id.1420" = "Tools";
+"categoriesList.title.id.26" = "Toys & Hobbies";
+"categoriesList.title.id.1511" = "Watches";
+"categoriesList.title.id.100003235" = "Weddings & Events";
+"categoriesList.title.id.200216592" = "360° Video Cameras & Accessories";
