@@ -1,9 +1,11 @@
-// swiftlint:disable line_length
-// swiftlint:disable variable_name
+// swiftlint:disable all
+// swiftlint:disable vertical_whitespace
 
 import Foundation
 #if os(iOS) || os(tvOS) || os(watchOS)
 import UIKit
+import CoreLocation
+import LocalAuthentication
 #elseif os(OSX)
 import AppKit
 #endif
@@ -45,13 +47,14 @@ import {{ argument.module }}
 {% macro methodClosureCallParameters method %}{% for param in method.parameters %}{{ param.name }}{% if not forloop.last %}, {% endif %}{% endfor %}{% endmacro %}
 
 {% macro mockMethod method %}
-    //MARK: - {{ method.shortName }}
+    // MARK: - {{ method.shortName }}
 
     {% if method.throws %}
         {% call methodThrowableErrorDeclaration method %}
     {% endif %}
     {% if not method.isInitializer %}
     var {% call swiftifyMethodName method.selectorName %}CallsCount = 0
+    var {% call swiftifyMethodName method.selectorName %}CalledOnQueueLabel: String?
     var {% call swiftifyMethodName method.selectorName %}Called: Bool {
         return {% call swiftifyMethodName method.selectorName %}CallsCount > 0
     }
@@ -77,6 +80,7 @@ import {{ argument.module }}
         {% call methodThrowableErrorUsage method %}
         {% endif %}
         {% call swiftifyMethodName method.selectorName %}CallsCount += 1
+        {% call swiftifyMethodName method.selectorName %}CalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         {% call methodReceivedParameters method %}
         {% if method.returnTypeName.isVoid %}
         {% if method.throws %}try {% endif %}{% call methodClosureName method %}?({% call methodClosureCallParameters method %})

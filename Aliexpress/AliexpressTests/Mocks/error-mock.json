@@ -1,0 +1,7 @@
+[
+  {
+    "code": "NotNull",
+    "field": "productId",
+    "violation": "NotNull may not be null"
+  }
+]

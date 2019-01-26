@@ -20,7 +20,13 @@ internal enum StoryboardScene {
   internal enum Main: StoryboardType {
     internal static let storyboardName = "Main"
 
-    internal static let initialScene = InitialSceneType<Aliexpress.ViewController>(storyboard: Main.self)
+    internal static let productDetailViewController = SceneType<UIKit.UIViewController>(storyboard: Main.self, identifier: "ProductDetailViewController")
+
+    internal static let productsCategoryViewController = SceneType<Aliexpress.CategoriesViewController>(storyboard: Main.self, identifier: "ProductsCategoryViewController")
+
+    internal static let productsListViewController = SceneType<UIKit.UIViewController>(storyboard: Main.self, identifier: "ProductsListViewController")
+
+    internal static let splashViewController = SceneType<Aliexpress.SplashViewController>(storyboard: Main.self, identifier: "SplashViewController")
   }
 }
 // swiftlint:enable explicit_type_interface identifier_name line_length type_body_length type_name

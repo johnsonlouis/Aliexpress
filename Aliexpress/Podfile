@@ -12,10 +12,8 @@ target 'Aliexpress' do
   # Pods for Aliexpress
 
   target 'AliexpressTests' do
-    inherit! :search_paths
     pod 'Sourcery', '~> 0.15.0'
     pod 'Nimble', '~> 7.3'
-    # Pods for testing
   end
 
   target 'AliexpressUITests' do

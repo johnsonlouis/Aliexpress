@@ -30,12 +30,12 @@
 		2F94BA1D8E9BDD7E681D308052090F5D /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C99097D4BA6373FD9D0CA4E857075B /* CacheSerializer.swift */; };
 		3312F77A6C289F2CEFBF0C1D98431671 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD32057D16C252B853C0A88CDA49AD86 /* Async.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		350C051E271508531C90540A2496684C /* CwlCatchBadInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F5654157B38D53D5395EA3A077CDD /* CwlCatchBadInstruction.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		35A6181DEF1FAE4D02EA28D58256258B /* Pods-AliexpressUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D65ADA85C7EA0CDA507FE338E5C7596 /* Pods-AliexpressUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35A6181DEF1FAE4D02EA28D58256258B /* Pods-AliexpressUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71FD689E87C8DD8E387F4249AA9A3505 /* Pods-AliexpressUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35F924F3DB27F9CE6B86074A012695B5 /* ImageDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF83DCFA085C388FA3C9B49FC1BA612 /* ImageDrawing.swift */; };
 		36FF8853CB34A9297AFAA8F5F7456324 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91BE6E8FD387A32ECDA7AC52EECD94A /* TaskDelegate.swift */; };
 		37C3C6235A5DDB8E37629314CF0E8489 /* ThrowAssertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D9CBD81E701D0AC7093EB5EB0D1554 /* ThrowAssertion.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		3C0D99EED837A3AD705A664503EF48DE /* NMBStringify.m in Sources */ = {isa = PBXBuildFile; fileRef = 33450FF9596FCEB5EE712AFD1FD2A797 /* NMBStringify.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		3CAB2DD4A9F2C348C48C7AEC03160DF2 /* Pods-Aliexpress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7ECF767C3A6FD740B06508EC8547F0 /* Pods-Aliexpress-dummy.m */; };
+		3CAB2DD4A9F2C348C48C7AEC03160DF2 /* Pods-Aliexpress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8769775C5DAF874B08D965C45788056F /* Pods-Aliexpress-dummy.m */; };
 		3E7468FD0FBE74B531819D22C7032FDE /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7738AD34181A7D0FA31FDF08ECC5DC /* Kingfisher-dummy.m */; };
 		3F51726556AA0A82C5E68E11097EBFE7 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1360BCE674C00A00B318491CC89660 /* ImagePrefetcher.swift */; };
 		3F6E5C6A694E403ADBB0094AA99B3522 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA152248E83A09980F129D0E0517A8D /* AnimatedImageView.swift */; };
@@ -62,6 +62,7 @@
 		58B249717B134855DA1DF182DF0AEDB9 /* BeGreaterThanOrEqualTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA58302F34806AEC3F4D080A68BF584 /* BeGreaterThanOrEqualTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		5BA1006DAFD72ACF9F31DC95096FD054 /* mach_excServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 81DCEBC83812AC1DAF389FEDBB4AC94D /* mach_excServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5EE5FED83B90A606A763CF1114D1D6FB /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234D8F32657602BE4CAA5CB47B22A4B3 /* ResponseSerialization.swift */; };
+		5F98F05220E5793CF9B124CC13970C0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A22DC9EF09662814715BFEFF50581E /* Foundation.framework */; };
 		618C13D4020EBA363997EFB60A56AC20 /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 0664D1E687D87E47CCB2E9F96F69B973 /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62A3D36B892ED9C9A3210134C97FE3F9 /* NimbleXCTestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017B304B8A3F6A78666CB1B586844891 /* NimbleXCTestHandler.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		66D3DA2225488356273B3D0AB83DA268 /* CwlMachBadInstructionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE9961AF1DDE2ED42922CB4DA2F919C /* CwlMachBadInstructionHandler.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -81,7 +82,6 @@
 		7AA9A7388AF44BB4EB2111CEDB29A666 /* MatchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F022253DEBC8FD7FE6AEE320049A6E34 /* MatchError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		7F46EF39C927BC9D1B56A2A88ED0B1D1 /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25C6CA1EF0FB17DC7F53BD65108C054 /* MemoryStorage.swift */; };
 		8050C10B78F2D1DD98A2F3E250A24AD0 /* CwlDarwinDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE852415C5E3F7F4284D7390A6E3F3C /* CwlDarwinDefinitions.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		829C90CDDBF0789D62526F6595CE75AA /* Pods-AliexpressTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B85DD0A9EBAD39761E74F813B6B0309 /* Pods-AliexpressTests-dummy.m */; };
 		84407C93B6727F6EDF7E579F11BAD3B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A22DC9EF09662814715BFEFF50581E /* Foundation.framework */; };
 		85107C3BD627EA89CC1EAB25859EF85D /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1962EF5D36208B07CF6AF472504A421E /* AssertionRecorder.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		8A34001AAC3755C995FA6A20060D5A23 /* Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63225AF87E7417F814269B36A5AEE462 /* Runtime.swift */; };
@@ -109,7 +109,6 @@
 		A8BE89EA8D5D02A20FC478B394648A39 /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D201D223CFB15C86DBC5373303CBCC /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA69CA27F91A52528AF689334A069AE2 /* GIFAnimatedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E84EBC590DF7AB488D5B0555AE029 /* GIFAnimatedImage.swift */; };
 		AC4E557A450E284C158EA7387E6E0A07 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386002FD544AF3EDCEE20BD0347498ED /* Result.swift */; };
-		ACF0123692CD14085DC66E75D1B85366 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A22DC9EF09662814715BFEFF50581E /* Foundation.framework */; };
 		AE0E0796C08A4A587D867BD7147F8554 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE572BFD12D5864132B901A4804C456D /* Storage.swift */; };
 		B14A4528FCC5369FDEF0148831F924A6 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE05016AFCB05CF748162F658B45BB /* Image.swift */; };
 		B1834F8C94B15E0AD9CF1CEF93108EAA /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A0F7E20FCCB52C149D6727F0F358A0 /* ImageView+Kingfisher.swift */; };
@@ -121,14 +120,13 @@
 		B6F0D7C04121F97B1D4933C0168278EF /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F77B4D412D912E044E9827FF0F50542 /* AssertionDispatcher.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		B77705737566AE83ED7E448923D7FA60 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8D76BB2402B876B8D392687E1C8ECE /* NetworkReachabilityManager.swift */; };
 		B7ED1B41F56087971B656A2E38322310 /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD97A29CA84C704A537F7C49976D34F /* Stringers.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		BAB5D9514D0DC616475C3058A3506980 /* Pods-AliexpressUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 173D93A2F55574D7A0B30F999560B53B /* Pods-AliexpressUITests-dummy.m */; };
+		BAB5D9514D0DC616475C3058A3506980 /* Pods-AliexpressUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C699B7BF3037F91931F81016A12D697 /* Pods-AliexpressUITests-dummy.m */; };
 		BC1EB91426A59A1A981398F40A086F1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A22DC9EF09662814715BFEFF50581E /* Foundation.framework */; };
 		BDEC9A4486E693D19FFF6215EBF9A7C7 /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9B815DBEE78CD03E26EC825D5BE2D9 /* ImageModifier.swift */; };
 		BE4BA1EDE444A770F834605F4B65348E /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121A03A4B83702D8B6DACECE15C81DCC /* AFError.swift */; };
 		BEB8082717D949400F2DE3458E75CBE3 /* CwlMachBadInstructionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 44EDC0F15F35ACD87C87D265E5722B3D /* CwlMachBadInstructionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5305DE0B553BCA7361C3997ACD70FFB /* mach_excServer.c in Sources */ = {isa = PBXBuildFile; fileRef = 844C14D53FE6504425E3A28FDEB2D204 /* mach_excServer.c */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		C5D9A136209FFC5C263C84E096805518 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A7542990FD205024DF1673E9E9FF55 /* ImageCache.swift */; };
-		C6C69D3F36CE58DF92AF710E9D6AE9B1 /* Pods-AliexpressTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD58D443E3B642CFA98F0D3F05ED76E0 /* Pods-AliexpressTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE1287DA39DB4208F5511CE47FE8298D /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE15B22F0FBE737DC99B42331A5079F /* AdapterProtocols.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		CF5617D2068CEE6D5C538FD73D0F1692 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF21C67E0D097D7C15E97398EBE9867A /* Box.swift */; };
 		D4C3899574E9D5DF5E5DA52310560BCC /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A2767F6B59C1B7DFD40786552FAE52 /* Alamofire-dummy.m */; };
@@ -143,16 +141,18 @@
 		DDB89D0F2F9422FEFF8D3ABB4B1FC7F9 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86211C405C0249F7B76DDAB242CBD5F2 /* Match.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		DEEDD0D7C0369178EC867A59373F6380 /* Await.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA68CFACDF8306F8750C889CDA7BE36 /* Await.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		DF7CF1941236840A89D99B233E4DC086 /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674BFA14BC70386141886D4B87EDD12E /* BeginWith.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		E1D1A380DAE2F139AB20DE0B4310AC49 /* Pods-Aliexpress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F36B250B58A1697881B180971D57A79 /* Pods-Aliexpress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D1A380DAE2F139AB20DE0B4310AC49 /* Pods-Aliexpress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A09864B53D746FEB5AAE89E02A120732 /* Pods-Aliexpress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E454528E8D39931207848DACBB617A4C /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35B8EC075132FCEBBE6AC5102759F84 /* Expression.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		E4D92EC555B526E5A10229220A9DD2E6 /* ImageFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6121CF97D27628816F4DAAC33357B6D5 /* ImageFormat.swift */; };
 		E6B19CAA68CD702303A6A853CA5D9908 /* ImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC32BC7BC3CD38C7948DDF48EFA6BAE /* ImageDataProvider.swift */; };
 		E85EAC40F42C10F327BE0BCF39C2DF3B /* ThrowError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BBFF8DC255A8368B6818B2CB15171F /* ThrowError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		E936046C912A1C2CE374F560C7BC9259 /* Pods-Aliexpress-AliexpressTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A25FF25476B7B6065DCE926107FB1B /* Pods-Aliexpress-AliexpressTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E984CB87ABF0DD970BD4B856DEA35E1A /* CwlPreconditionTesting.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AFE7A7EBECDC733ABFCFE7F64455B4C /* CwlPreconditionTesting.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF1461221681BCA12A4147900A704727 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F271004BE5CBCB9B6BF3F7FCC21B92E /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F088EE1AE386EEF27AC934DE13F455BB /* CwlCatchException.h in Headers */ = {isa = PBXBuildFile; fileRef = BF976B58E17703D4A9FAEB36E784044C /* CwlCatchException.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F32B9D0318D13B740E6D88E16709FEA3 /* HaveCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF93BB6636F32A1A42BA28E053E4FE /* HaveCount.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		F4EE282D8435D54A662C6DDD30A3D2CD /* CwlCatchException.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E49A43B7528CA9FC495BACD55EEDB3 /* CwlCatchException.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		F4F3398214B0924E6314BCB576307A30 /* Pods-Aliexpress-AliexpressTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A580B172C4B34E64FA8C4728BC42A9D3 /* Pods-Aliexpress-AliexpressTests-dummy.m */; };
 		F76CCBE789BDB16C21ABD681AEA78644 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A79DB67E72850E359480E05F0F07E76 /* RedirectHandler.swift */; };
 		F9EA61D484CC15FDDAB0D8C0D26D7949 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4EDBEAF0BEBD9289CDD2BD13F1B09F /* Result.swift */; };
 		FBE7D35DE341D4325AE557CF224F2C84 /* ImageDownloaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD03F065D85BE000D02AB56848F2EC8 /* ImageDownloaderDelegate.swift */; };
@@ -161,7 +161,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		91BCD2E105082BB41DE9375462212147 /* PBXContainerItemProxy */ = {
+		B62D108C623F2B5C35AB3AAD1703D9E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -189,37 +189,43 @@
 			remoteGlobalIDString = 43D93432771DDE1405D146C7028C512D;
 			remoteInfo = "Pods-Aliexpress";
 		};
-		CEE4080096687A7F3D01924AFDD562E6 /* PBXContainerItemProxy */ = {
+		DECA636C3B032292E9F846AEFDB5452C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 43D93432771DDE1405D146C7028C512D;
-			remoteInfo = "Pods-Aliexpress";
+			remoteGlobalIDString = 46D23D574A977D2A012EC4B6954BFCFF;
+			remoteInfo = Kingfisher;
+		};
+		F12E6E3B6BBC7B3BC24EA92C1FA510A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E76458C58C9140B6A16D60547E68E80C;
+			remoteInfo = Alamofire;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		017B304B8A3F6A78666CB1B586844891 /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Sources/Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
-		01B2D7B5895E7482B7D626D5247240FA /* Pods-Aliexpress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aliexpress.release.xcconfig"; sourceTree = "<group>"; };
+		02E6609EC593024142885BC4FCBD7207 /* Pods_Aliexpress_AliexpressTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Aliexpress_AliexpressTests.framework; path = "Pods-Aliexpress-AliexpressTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03039FE7DC1570536670A61051C3C8ED /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/Networking/RequestModifier.swift; sourceTree = "<group>"; };
-		03C0D938FCA00AE0F956C7DEBD27FE02 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		044C46D86532202943F8D669975443C3 /* NMBExceptionCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBExceptionCapture.m; path = Sources/NimbleObjectiveC/NMBExceptionCapture.m; sourceTree = "<group>"; };
 		0664D1E687D87E47CCB2E9F96F69B973 /* DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSL.h; path = Sources/NimbleObjectiveC/DSL.h; sourceTree = "<group>"; };
 		06E679C54DAA80A3552A936CBF865AD2 /* BeLessThanOrEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThanOrEqual.swift; path = Sources/Nimble/Matchers/BeLessThanOrEqual.swift; sourceTree = "<group>"; };
 		08C9CEB60549E13EF2DE27778C76D58D /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/General/KingfisherManager.swift; sourceTree = "<group>"; };
 		0C2B06F4B3754BAEE23ED66E695BE801 /* BeNil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeNil.swift; path = Sources/Nimble/Matchers/BeNil.swift; sourceTree = "<group>"; };
 		0C9B815DBEE78CD03E26EC825D5BE2D9 /* ImageModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageModifier.swift; path = Sources/Networking/ImageModifier.swift; sourceTree = "<group>"; };
+		0D984A63F754646AE74FCD42B5BD5D11 /* Pods-Aliexpress-AliexpressTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Aliexpress-AliexpressTests-frameworks.sh"; sourceTree = "<group>"; };
 		0DE9961AF1DDE2ED42922CB4DA2F919C /* CwlMachBadInstructionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlMachBadInstructionHandler.m; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/CwlMachBadInstructionHandler.m; sourceTree = "<group>"; };
 		1178F59A483404B87645900B43164436 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		121A03A4B83702D8B6DACECE15C81DCC /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		16A0F7E20FCCB52C149D6727F0F358A0 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/Extensions/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
-		173D93A2F55574D7A0B30F999560B53B /* Pods-AliexpressUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliexpressUITests-dummy.m"; sourceTree = "<group>"; };
 		18C43640E9F5F1425139C28F4876E677 /* SizeExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SizeExtensions.swift; path = Sources/Utility/SizeExtensions.swift; sourceTree = "<group>"; };
 		1962EF5D36208B07CF6AF472504A421E /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Sources/Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
+		19794D9D76C0A6CC537EBCF6FA2D0E40 /* Pods-Aliexpress-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Aliexpress-acknowledgements.plist"; sourceTree = "<group>"; };
 		1A4D790005A6FEBB24DEDB474D43C5A3 /* Nimble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-prefix.pch"; sourceTree = "<group>"; };
 		1B2421345009AB999977BA3C95D2BADE /* ExpectationMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpectationMessage.swift; path = Sources/Nimble/ExpectationMessage.swift; sourceTree = "<group>"; };
 		1BD97A29CA84C704A537F7C49976D34F /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Sources/Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
-		1F36B250B58A1697881B180971D57A79 /* Pods-Aliexpress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Aliexpress-umbrella.h"; sourceTree = "<group>"; };
 		21BBFF8DC255A8368B6818B2CB15171F /* ThrowError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowError.swift; path = Sources/Nimble/Matchers/ThrowError.swift; sourceTree = "<group>"; };
 		220768FC2C3B0D5153DE05A23325AEF6 /* SessionDataTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDataTask.swift; path = Sources/Networking/SessionDataTask.swift; sourceTree = "<group>"; };
 		2294F93A3FF308B7814310BE63069A2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -228,39 +234,34 @@
 		251D8607E95F20AF0551E2042A1A1E36 /* Source.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Source.swift; path = Sources/General/ImageSource/Source.swift; sourceTree = "<group>"; };
 		25581D8CAE26CC91AD39330E7B25CF76 /* BeIdenticalTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeIdenticalTo.swift; path = Sources/Nimble/Matchers/BeIdenticalTo.swift; sourceTree = "<group>"; };
 		26A0ADF311470F74D9D93ED9A77BB6FA /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Sources/Image/Placeholder.swift; sourceTree = "<group>"; };
-		2A1F8834999801852F26B754799AD418 /* Pods-AliexpressUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AliexpressUITests.modulemap"; sourceTree = "<group>"; };
+		2A81FEEC26A2D197AE735CC2D1EEC374 /* Pods-AliexpressUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AliexpressUITests.modulemap"; sourceTree = "<group>"; };
 		2AE852415C5E3F7F4284D7390A6E3F3C /* CwlDarwinDefinitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlDarwinDefinitions.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlDarwinDefinitions.swift; sourceTree = "<group>"; };
-		2E3EB6480B1906F42E4BCC6B66B6ACA9 /* Pods-AliexpressTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliexpressTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D79937DB623E547921988E4448C8E42 /* Pods-Aliexpress-AliexpressTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Aliexpress-AliexpressTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2FA152248E83A09980F129D0E0517A8D /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/Views/AnimatedImageView.swift; sourceTree = "<group>"; };
 		318EC71C69FCF50409993CC82E24DE99 /* BeGreaterThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThan.swift; path = Sources/Nimble/Matchers/BeGreaterThan.swift; sourceTree = "<group>"; };
 		32C47737E530264D464B237F690A08EF /* ContainElementSatisfying.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainElementSatisfying.swift; path = Sources/Nimble/Matchers/ContainElementSatisfying.swift; sourceTree = "<group>"; };
 		32E49A43B7528CA9FC495BACD55EEDB3 /* CwlCatchException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlCatchException.m; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/CwlCatchException.m; sourceTree = "<group>"; };
-		32EA1F568A338EE9150F837338E75906 /* Pods-Aliexpress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aliexpress.debug.xcconfig"; sourceTree = "<group>"; };
 		33450FF9596FCEB5EE712AFD1FD2A797 /* NMBStringify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBStringify.m; path = Sources/NimbleObjectiveC/NMBStringify.m; sourceTree = "<group>"; };
 		3401929B21F4E38915FB7F3C16490891 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/General/Kingfisher.swift; sourceTree = "<group>"; };
-		3482F0B788A8BA1F0C5064FA59460164 /* Pods-Aliexpress-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Aliexpress-frameworks.sh"; sourceTree = "<group>"; };
 		37D9CBD81E701D0AC7093EB5EB0D1554 /* ThrowAssertion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowAssertion.swift; path = Sources/Nimble/Matchers/ThrowAssertion.swift; sourceTree = "<group>"; };
 		386002FD544AF3EDCEE20BD0347498ED /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Utility/Result.swift; sourceTree = "<group>"; };
-		3B85DD0A9EBAD39761E74F813B6B0309 /* Pods-AliexpressTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliexpressTests-dummy.m"; sourceTree = "<group>"; };
+		3ABC7988832AEE1E16841618450E794B /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C4EDBEAF0BEBD9289CDD2BD13F1B09F /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		3D65ADA85C7EA0CDA507FE338E5C7596 /* Pods-AliexpressUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AliexpressUITests-umbrella.h"; sourceTree = "<group>"; };
 		3DC3B70ED0B9159F15BA50ECFE47A0AF /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatIndicatedCacheSerializer.swift; path = Sources/Cache/FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
 		3DF93995157C4E648A113068D1F64F14 /* NMBStringify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBStringify.h; path = Sources/NimbleObjectiveC/NMBStringify.h; sourceTree = "<group>"; };
 		3ECFBC81E3198471DA78C3C312AB6C03 /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = Sources/General/Deprecated.swift; sourceTree = "<group>"; };
 		43BE9497E6C1DD8812B42E8FE34DF436 /* AuthenticationChallengeResponsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationChallengeResponsable.swift; path = Sources/Networking/AuthenticationChallengeResponsable.swift; sourceTree = "<group>"; };
-		4435565993AA3C3FB0DB59B152FAD4CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44EDC0F15F35ACD87C87D265E5722B3D /* CwlMachBadInstructionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlMachBadInstructionHandler.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include/CwlMachBadInstructionHandler.h; sourceTree = "<group>"; };
+		474A4DAD9110B81C6A9DAEFB27D82028 /* Pods-Aliexpress-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Aliexpress-frameworks.sh"; sourceTree = "<group>"; };
 		4884A3CCFEF4F318D230FA170DFAB8EB /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/Networking/ImageDownloader.swift; sourceTree = "<group>"; };
-		4B60396E5E51234D459D8C62AECE8BDB /* Pods-AliexpressUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliexpressUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4C588A8AEF5C042EE55C67A754FACE38 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		4CA68CFACDF8306F8750C889CDA7BE36 /* Await.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Await.swift; path = Sources/Nimble/Utils/Await.swift; sourceTree = "<group>"; };
-		4D33B7F5D36315E751AA49CA01BC000F /* Pods-AliexpressTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliexpressTests-resources.sh"; sourceTree = "<group>"; };
 		4DB4B2BFDB40360D9BDCD38B9FA271D5 /* XCTestObservationCenter+Register.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestObservationCenter+Register.m"; path = "Sources/NimbleObjectiveC/XCTestObservationCenter+Register.m"; sourceTree = "<group>"; };
 		4F9AE409E58898CD6EA44D9F74E9059D /* BeVoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeVoid.swift; path = Sources/Nimble/Matchers/BeVoid.swift; sourceTree = "<group>"; };
-		4FB3246DD8E271E8509C3837CF019EDD /* Pods-AliexpressUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliexpressUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5000C50C89752EEC269151AD9F31BB65 /* Pods-AliexpressUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliexpressUITests.release.xcconfig"; sourceTree = "<group>"; };
 		50EB179D2C90F52B70F2B9D4664BA1BA /* ExtensionHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionHelpers.swift; path = Sources/Utility/ExtensionHelpers.swift; sourceTree = "<group>"; };
+		513DCB81FEEA20EB0DBB6F855BF3686B /* Pods-AliexpressUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliexpressUITests-frameworks.sh"; sourceTree = "<group>"; };
 		51C99097D4BA6373FD9D0CA4E857075B /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/Cache/CacheSerializer.swift; sourceTree = "<group>"; };
-		52FD22D3A295CF4F76B806845DA1977E /* Pods-AliexpressTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AliexpressTests.modulemap"; sourceTree = "<group>"; };
 		55A72BE42F11B8BA774C66938A65F4A6 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/Extensions/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
 		5BE15B22F0FBE737DC99B42331A5079F /* AdapterProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdapterProtocols.swift; path = Sources/Nimble/Adapters/AdapterProtocols.swift; sourceTree = "<group>"; };
 		5CDBD1D43F94A70E7FC8AE7FBAB128FF /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
@@ -268,25 +269,29 @@
 		5E7738AD34181A7D0FA31FDF08ECC5DC /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
 		5FBDEF929B63FD8BB2A9EC8977DAE79D /* ImageDataProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProcessor.swift; path = Sources/Networking/ImageDataProcessor.swift; sourceTree = "<group>"; };
 		60770A54A3BC3CA5E00B4A1EA05161EE /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/Image/ImageTransition.swift; sourceTree = "<group>"; };
-		608D2AEC0E45E8ACE4DA711220C6EFEC /* Pods-Aliexpress-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Aliexpress-resources.sh"; sourceTree = "<group>"; };
 		6121CF97D27628816F4DAAC33357B6D5 /* ImageFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFormat.swift; path = Sources/Image/ImageFormat.swift; sourceTree = "<group>"; };
 		62DC24362CC23E97A8FBE1F1B2695B17 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Nimble/DSL.swift; sourceTree = "<group>"; };
 		63225AF87E7417F814269B36A5AEE462 /* Runtime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Runtime.swift; path = Sources/Utility/Runtime.swift; sourceTree = "<group>"; };
 		65D016CB9BF6CE3D7F1852BC081C6FFE /* Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Nimble.modulemap; sourceTree = "<group>"; };
+		660EDA3A09EFAE6C853B5944133EF7AF /* Pods-Aliexpress-AliexpressTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Aliexpress-AliexpressTests.modulemap"; sourceTree = "<group>"; };
 		665D99B0E30A640F612C751F2EA801E3 /* SatisfyAllOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SatisfyAllOf.swift; path = Sources/Nimble/Matchers/SatisfyAllOf.swift; sourceTree = "<group>"; };
 		674BFA14BC70386141886D4B87EDD12E /* BeginWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWith.swift; path = Sources/Nimble/Matchers/BeginWith.swift; sourceTree = "<group>"; };
 		67D201D223CFB15C86DBC5373303CBCC /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
+		67DC32733D0342D8B23F86258CCFCFD7 /* Pods-AliexpressUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliexpressUITests-resources.sh"; sourceTree = "<group>"; };
+		686A901408316130F89AAECBC01963E0 /* Pods-Aliexpress-AliexpressTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aliexpress-AliexpressTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B7A1D277C701E15648876CADAEDA8B7 /* Pods-Aliexpress-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Aliexpress-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6BF83DCFA085C388FA3C9B49FC1BA612 /* ImageDrawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDrawing.swift; path = Sources/Image/ImageDrawing.swift; sourceTree = "<group>"; };
 		6D8D76BB2402B876B8D392687E1C8ECE /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		6F77B4D412D912E044E9827FF0F50542 /* AssertionDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionDispatcher.swift; path = Sources/Nimble/Adapters/AssertionDispatcher.swift; sourceTree = "<group>"; };
+		70CA95016D9F12C7138940225F873075 /* Pods-Aliexpress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aliexpress.release.xcconfig"; sourceTree = "<group>"; };
+		71FD689E87C8DD8E387F4249AA9A3505 /* Pods-AliexpressUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AliexpressUITests-umbrella.h"; sourceTree = "<group>"; };
 		72875446E62D15C0252B0B5ECAA50A09 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		735577AE6BF7A52DDFC91F2D151D01FF /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
 		73D5CA92EBBF9F331407010515BB91CC /* FailureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailureMessage.swift; path = Sources/Nimble/FailureMessage.swift; sourceTree = "<group>"; };
 		75DCCBA8ED7AD2B1331E209499B764CE /* CwlBadInstructionException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlBadInstructionException.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlBadInstructionException.swift; sourceTree = "<group>"; };
-		7716D5DBDA00EA19EA0F8D57E5789320 /* Pods_AliexpressUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AliexpressUITests.framework; path = "Pods-AliexpressUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		785E1BAB56FD5B77448D37D3FCBF87B1 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		796A5056A4BB9D69D30E9FE94FCB2B30 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		7AFE7A7EBECDC733ABFCFE7F64455B4C /* CwlPreconditionTesting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlPreconditionTesting.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/Mach/CwlPreconditionTesting.h; sourceTree = "<group>"; };
+		7BBEE826454FAF87CD6A158B83BDB4C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BD2E0A0A47383E81C1E320B0EFDDDC5 /* DSL+Wait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DSL+Wait.swift"; path = "Sources/Nimble/DSL+Wait.swift"; sourceTree = "<group>"; };
 		7BD5B084D97E7EDA5D8A93DA7671F61C /* BeLessThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThan.swift; path = Sources/Nimble/Matchers/BeLessThan.swift; sourceTree = "<group>"; };
 		7E799589A9D0988A5EE76774807CF113 /* CallbackQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallbackQueue.swift; path = Sources/Utility/CallbackQueue.swift; sourceTree = "<group>"; };
@@ -299,29 +304,34 @@
 		844C14D53FE6504425E3A28FDEB2D204 /* mach_excServer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mach_excServer.c; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.c; sourceTree = "<group>"; };
 		85080228C04F36DB94A9F0D6F6A66905 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		86211C405C0249F7B76DDAB242CBD5F2 /* Match.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Match.swift; path = Sources/Nimble/Matchers/Match.swift; sourceTree = "<group>"; };
-		862612B61BD83C716232AD67FA421BC6 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8769775C5DAF874B08D965C45788056F /* Pods-Aliexpress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Aliexpress-dummy.m"; sourceTree = "<group>"; };
 		89BAB30DD767AC4BED096F0A4E8F5EA2 /* Expectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expectation.swift; path = Sources/Nimble/Expectation.swift; sourceTree = "<group>"; };
 		8A79DB67E72850E359480E05F0F07E76 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Sources/Networking/RedirectHandler.swift; sourceTree = "<group>"; };
 		8B4F13BBCF86A04DFFB8818BE9004BB0 /* BeCloseTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeCloseTo.swift; path = Sources/Nimble/Matchers/BeCloseTo.swift; sourceTree = "<group>"; };
 		8B59F21DA9510857D6B344370D2D1730 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BC32BC7BC3CD38C7948DDF48EFA6BAE /* ImageDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProvider.swift; path = Sources/General/ImageSource/ImageDataProvider.swift; sourceTree = "<group>"; };
+		8EADBC0FFE62269E598B4B7C74F4A657 /* Pods-AliexpressUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliexpressUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8F271004BE5CBCB9B6BF3F7FCC21B92E /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		919A66882C2BA52160040174D075C95B /* NMBExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBExpectation.swift; path = Sources/Nimble/Adapters/NMBExpectation.swift; sourceTree = "<group>"; };
+		921AE4E82F180076DB78E663C74A5847 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93FD073A2CB37C2F52D029B4ADFE8F3C /* Nimble.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nimble.xcconfig; sourceTree = "<group>"; };
 		97AD9D2DD1F4B47FC71874AABAA4334F /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/Utility/String+MD5.swift"; sourceTree = "<group>"; };
+		9C12029F745713D21E369927F721BA99 /* Pods-AliexpressUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliexpressUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9C699B7BF3037F91931F81016A12D697 /* Pods-AliexpressUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliexpressUITests-dummy.m"; sourceTree = "<group>"; };
 		9D8CFB8AC5CA502C044199EE338E350D /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
-		9EE520450D66E978C6FB25C4A674284F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A09864B53D746FEB5AAE89E02A120732 /* Pods-Aliexpress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Aliexpress-umbrella.h"; sourceTree = "<group>"; };
 		A25C6CA1EF0FB17DC7F53BD65108C054 /* MemoryStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryStorage.swift; path = Sources/Cache/MemoryStorage.swift; sourceTree = "<group>"; };
 		A35B8EC075132FCEBBE6AC5102759F84 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/Nimble/Expression.swift; sourceTree = "<group>"; };
+		A3D3E9D81CAEF5B304F5EE89D0028400 /* Pods_AliexpressUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AliexpressUITests.framework; path = "Pods-AliexpressUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A580B172C4B34E64FA8C4728BC42A9D3 /* Pods-Aliexpress-AliexpressTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Aliexpress-AliexpressTests-dummy.m"; sourceTree = "<group>"; };
+		A6DFB559E39D34756A023166511FE50B /* Pods-Aliexpress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aliexpress.debug.xcconfig"; sourceTree = "<group>"; };
 		A807AE541AEC5565F85647768D3BAAA0 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		A91BE6E8FD387A32ECDA7AC52EECD94A /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		A990428B5CFBA2A6EB372A8817C1EFE1 /* Pods-AliexpressUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliexpressUITests-resources.sh"; sourceTree = "<group>"; };
 		AAF8959230EE3BBEF5D82C97AB01ADBA /* NMBObjCMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBObjCMatcher.swift; path = Sources/Nimble/Adapters/NMBObjCMatcher.swift; sourceTree = "<group>"; };
+		AB853CDA2D7D44963676EA462CA1FD05 /* Pods-Aliexpress-AliexpressTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Aliexpress-AliexpressTests-resources.sh"; sourceTree = "<group>"; };
 		ABEB4FA1A90C04B7AA1CBBFAD9040B67 /* Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-umbrella.h"; sourceTree = "<group>"; };
 		AC9BCA53F0A0C55CBD0C35B648E4EC67 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		AD58D443E3B642CFA98F0D3F05ED76E0 /* Pods-AliexpressTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AliexpressTests-umbrella.h"; sourceTree = "<group>"; };
-		AF0F1EA7843F05FA0852B697AA4B86A7 /* Pods-AliexpressUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliexpressUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AFCB5B027FF3228B5A32DE2A64229DD9 /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Sources/Nimble/Nimble.h; sourceTree = "<group>"; };
 		AFD03F065D85BE000D02AB56848F2EC8 /* ImageDownloaderDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloaderDelegate.swift; path = Sources/Networking/ImageDownloaderDelegate.swift; sourceTree = "<group>"; };
 		B06348ABC552668CAEB29376533FBF11 /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kingfisher.modulemap; sourceTree = "<group>"; };
@@ -330,7 +340,6 @@
 		B20ECF8F8543FC734FE9EDBB23DC122F /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Sources/Networking/SessionDelegate.swift; sourceTree = "<group>"; };
 		B3382F2FEE4F99645C5CE354D37884F9 /* BeLogical.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLogical.swift; path = Sources/Nimble/Matchers/BeLogical.swift; sourceTree = "<group>"; };
 		B5CE6D934AC491AE31B3FA8DC6EE65EF /* CwlCatchException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchException.swift; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchException/CwlCatchException.swift; sourceTree = "<group>"; };
-		B73AEF1EAA28521E60393A9499E18A0B /* Pods-AliexpressTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliexpressTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B7783D7E6F46C83145FFDFD6A975F9A4 /* PostNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostNotification.swift; path = Sources/Nimble/Matchers/PostNotification.swift; sourceTree = "<group>"; };
 		B7A2767F6B59C1B7DFD40786552FAE52 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		B8EBED41CA7E33A6D61965983A59F674 /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
@@ -338,15 +347,15 @@
 		BB2F5654157B38D53D5395EA3A077CDD /* CwlCatchBadInstruction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchBadInstruction.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlCatchBadInstruction.swift; sourceTree = "<group>"; };
 		BB5E1E3500300638602D9BD11C57ECE4 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/Nimble/Utils/Errors.swift; sourceTree = "<group>"; };
 		BCA58302F34806AEC3F4D080A68BF584 /* BeGreaterThanOrEqualTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThanOrEqualTo.swift; path = Sources/Nimble/Matchers/BeGreaterThanOrEqualTo.swift; sourceTree = "<group>"; };
-		BD7ECF767C3A6FD740B06508EC8547F0 /* Pods-Aliexpress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Aliexpress-dummy.m"; sourceTree = "<group>"; };
 		BDB78285F0043867ACAC339E081A9346 /* KingfisherError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherError.swift; path = Sources/General/KingfisherError.swift; sourceTree = "<group>"; };
 		BF976B58E17703D4A9FAEB36E784044C /* CwlCatchException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlCatchException.h; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchException.h; sourceTree = "<group>"; };
 		C07B6585FA3D302DBEB319494563DE94 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/Image/ImageProcessor.swift; sourceTree = "<group>"; };
+		C0CEC32A0DD9E4900B5C44317573B8D2 /* Pods-Aliexpress-AliexpressTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aliexpress-AliexpressTests.release.xcconfig"; sourceTree = "<group>"; };
+		C4392FB9D39774F2F86C0D6599069BD6 /* Pods-AliexpressUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliexpressUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C4CE70A9C7FAD1F469871CAE8C912982 /* SatisfyAnyOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SatisfyAnyOf.swift; path = Sources/Nimble/Matchers/SatisfyAnyOf.swift; sourceTree = "<group>"; };
-		C7325ED93B7F5C18C5ED00ACD28B0DC0 /* Pods-Aliexpress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Aliexpress.modulemap"; sourceTree = "<group>"; };
 		C76E7EF29BB93008AE5B742C9F63397B /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Image/Filter.swift; sourceTree = "<group>"; };
+		CB999CE40AE37F764698FE022222DD64 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC861A5C0E0441C36234F27BEE5F1FCF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		CCF5C2710A7B3AF47CEFDFD0D72EF30D /* Pods_AliexpressTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AliexpressTests.framework; path = "Pods-AliexpressTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD32057D16C252B853C0A88CDA49AD86 /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Sources/Nimble/Matchers/Async.swift; sourceTree = "<group>"; };
 		CF21C67E0D097D7C15E97398EBE9867A /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Utility/Box.swift; sourceTree = "<group>"; };
 		D08404FB637CAEB2F1163D7B6F16A7F4 /* RaisesException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaisesException.swift; path = Sources/Nimble/Matchers/RaisesException.swift; sourceTree = "<group>"; };
@@ -354,21 +363,22 @@
 		D22772CC7411D5324E8D69C5FA58B0DD /* MatcherFunc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherFunc.swift; path = Sources/Nimble/Matchers/MatcherFunc.swift; sourceTree = "<group>"; };
 		D3A7542990FD205024DF1673E9E9FF55 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/Cache/ImageCache.swift; sourceTree = "<group>"; };
 		D5EE05016AFCB05CF748162F658B45BB /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image/Image.swift; sourceTree = "<group>"; };
-		D896D28482C19C802851A75B17F07D4F /* Pods-Aliexpress-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Aliexpress-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D85E67277121484402EDD4FC244560F8 /* Pods-Aliexpress-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Aliexpress-resources.sh"; sourceTree = "<group>"; };
 		DB4BDF35936FAD2ECEC8C66D0596AA9D /* EndWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndWith.swift; path = Sources/Nimble/Matchers/EndWith.swift; sourceTree = "<group>"; };
-		DC2176C786AB674AA0568F7A43AB8AC5 /* Pods-AliexpressTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliexpressTests-frameworks.sh"; sourceTree = "<group>"; };
 		DE572BFD12D5864132B901A4804C456D /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = Sources/Cache/Storage.swift; sourceTree = "<group>"; };
 		DEFDF3A543AF25749740CEB66524E13F /* Predicate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Predicate.swift; path = Sources/Nimble/Matchers/Predicate.swift; sourceTree = "<group>"; };
 		E19E84EBC590DF7AB488D5B0555AE029 /* GIFAnimatedImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIFAnimatedImage.swift; path = Sources/Image/GIFAnimatedImage.swift; sourceTree = "<group>"; };
 		E3CC698B165172952202600AE998A55B /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		E437E8842B78C97163910B5241077750 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E43B0AC1F20B0781DC20955EBD8C2C2E /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/General/ImageSource/Resource.swift; sourceTree = "<group>"; };
-		E551255AB91CD03D40C7E518140B083A /* Pods_Aliexpress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Aliexpress.framework; path = "Pods-Aliexpress.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58AB8EC27ADC2A95912C40A402179B1 /* Pods_Aliexpress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Aliexpress.framework; path = "Pods-Aliexpress.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5A25FF25476B7B6065DCE926107FB1B /* Pods-Aliexpress-AliexpressTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Aliexpress-AliexpressTests-umbrella.h"; sourceTree = "<group>"; };
 		E7103DE129861E72CB57759F9A367488 /* NimbleEnvironment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleEnvironment.swift; path = Sources/Nimble/Adapters/NimbleEnvironment.swift; sourceTree = "<group>"; };
 		E78C222F486320118CC8F0B7FFB055E9 /* Equal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Equal.swift; path = Sources/Nimble/Matchers/Equal.swift; sourceTree = "<group>"; };
+		E82A438A5BEF17385BCF6130A668FC8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E88D471CFC2BA14F51F907230D1042CD /* NMBExceptionCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBExceptionCapture.h; path = Sources/NimbleObjectiveC/NMBExceptionCapture.h; sourceTree = "<group>"; };
-		E9399BBCAD550D9EB0D0A2B109F6BBFF /* Pods-AliexpressUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliexpressUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ECE69835242F500275E1DFBD7BA42915 /* Pods-Aliexpress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Aliexpress.modulemap"; sourceTree = "<group>"; };
 		ED6981C39F3AB580511FEE3259B0FFCE /* DiskStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskStorage.swift; path = Sources/Cache/DiskStorage.swift; sourceTree = "<group>"; };
+		EDEA91C173016AEB42D5774246B02585 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEC9F9B2A004BD3DA37CAABEBB58B1FF /* BeAnInstanceOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAnInstanceOf.swift; path = Sources/Nimble/Matchers/BeAnInstanceOf.swift; sourceTree = "<group>"; };
 		EF15456C05B1542E3ECC45EC6B27BA94 /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Sources/Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
 		EF470D7EA2E55C5391EC0A2BE919C6B3 /* AllPass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllPass.swift; path = Sources/Nimble/Matchers/AllPass.swift; sourceTree = "<group>"; };
@@ -376,18 +386,15 @@
 		F022253DEBC8FD7FE6AEE320049A6E34 /* MatchError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchError.swift; path = Sources/Nimble/Matchers/MatchError.swift; sourceTree = "<group>"; };
 		F04A279186855AAA19F695AEE1398241 /* BeEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeEmpty.swift; path = Sources/Nimble/Matchers/BeEmpty.swift; sourceTree = "<group>"; };
 		F170A9507639CE691F2DA49ACC98E791 /* DSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSL.m; path = Sources/NimbleObjectiveC/DSL.m; sourceTree = "<group>"; };
-		F2C629D0AB2479924BADB695A4DE5971 /* Pods-AliexpressTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliexpressTests.release.xcconfig"; sourceTree = "<group>"; };
+		F170C6492D23B57F5F9536B0082DDB7C /* Pods-Aliexpress-AliexpressTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Aliexpress-AliexpressTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F4A74ED037232CDF1978AA7ACF54C910 /* MatcherProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherProtocols.swift; path = Sources/Nimble/Matchers/MatcherProtocols.swift; sourceTree = "<group>"; };
-		FA0D163E837C1F4E03AD527635DF1EB2 /* Pods-AliexpressTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliexpressTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FB1360BCE674C00A00B318491CC89660 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/Networking/ImagePrefetcher.swift; sourceTree = "<group>"; };
 		FB3E6A0FA18A627AB17A5354A2D79A0B /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		FB57BBBCED06A06D2E8C3553B551D486 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		FC6CDB8EB4ABA7B6CBF1C7C18E8F49EE /* Nimble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-dummy.m"; sourceTree = "<group>"; };
-		FC88D79A2901B85E6430DD9E3A9C90CF /* Pods-Aliexpress-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Aliexpress-acknowledgements.plist"; sourceTree = "<group>"; };
 		FC9611D0AE425423055788A6DEBCF369 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		FDB1453EE3B78B3864CDAB35164CA825 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		FF4034A957D5F92C818FB7681F680FF2 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		FF9418BE8E9DD05B1D4A8E393C287F7D /* Pods-AliexpressUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliexpressUITests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -417,6 +424,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A9D0A6D6CA5F8579069FEC9839C943E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F98F05220E5793CF9B124CC13970C0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AA8BF33CACEF92498F0130D59B941162 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -430,14 +445,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				84407C93B6727F6EDF7E579F11BAD3B6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E02F2031E2B5A45028FDAEC53F9FA36A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ACF0123692CD14085DC66E75D1B85366 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,24 +509,6 @@
 			);
 			name = SwiftLint;
 			path = SwiftLint;
-			sourceTree = "<group>";
-		};
-		5839913363B7E5CD80EF8A6036734373 /* Pods-AliexpressTests */ = {
-			isa = PBXGroup;
-			children = (
-				E437E8842B78C97163910B5241077750 /* Info.plist */,
-				52FD22D3A295CF4F76B806845DA1977E /* Pods-AliexpressTests.modulemap */,
-				FA0D163E837C1F4E03AD527635DF1EB2 /* Pods-AliexpressTests-acknowledgements.markdown */,
-				B73AEF1EAA28521E60393A9499E18A0B /* Pods-AliexpressTests-acknowledgements.plist */,
-				3B85DD0A9EBAD39761E74F813B6B0309 /* Pods-AliexpressTests-dummy.m */,
-				DC2176C786AB674AA0568F7A43AB8AC5 /* Pods-AliexpressTests-frameworks.sh */,
-				4D33B7F5D36315E751AA49CA01BC000F /* Pods-AliexpressTests-resources.sh */,
-				AD58D443E3B642CFA98F0D3F05ED76E0 /* Pods-AliexpressTests-umbrella.h */,
-				2E3EB6480B1906F42E4BCC6B66B6ACA9 /* Pods-AliexpressTests.debug.xcconfig */,
-				F2C629D0AB2479924BADB695A4DE5971 /* Pods-AliexpressTests.release.xcconfig */,
-			);
-			name = "Pods-AliexpressTests";
-			path = "Target Support Files/Pods-AliexpressTests";
 			sourceTree = "<group>";
 		};
 		6404263AF9B3B58BCC65E6BA9E8F426C /* Nimble */ = {
@@ -600,14 +589,24 @@
 			path = Nimble;
 			sourceTree = "<group>";
 		};
+		78D3D582EA7FA13B9073F0B05B5559D2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A07C7F85136D483F45FBF945B2164695 /* Pods-Aliexpress */,
+				CE9585B5467940DACC193E42E70E845A /* Pods-Aliexpress-AliexpressTests */,
+				925E9B26075E0F74746DCEF65B8510B0 /* Pods-AliexpressUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				88A67BEEDE0859BD0D762068BC0097E8 /* Pods */,
-				881C501E6FB7FF9DFB459BDF8A7E8C5C /* Products */,
-				B26E56C5FECB14104A06AA9A27696573 /* Targets Support Files */,
+				F58F88D39B555FF83F4C75EC65B9F683 /* Products */,
+				78D3D582EA7FA13B9073F0B05B5559D2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -619,19 +618,6 @@
 				B9A22DC9EF09662814715BFEFF50581E /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		881C501E6FB7FF9DFB459BDF8A7E8C5C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				785E1BAB56FD5B77448D37D3FCBF87B1 /* Alamofire.framework */,
-				03C0D938FCA00AE0F956C7DEBD27FE02 /* Kingfisher.framework */,
-				862612B61BD83C716232AD67FA421BC6 /* Nimble.framework */,
-				E551255AB91CD03D40C7E518140B083A /* Pods_Aliexpress.framework */,
-				CCF5C2710A7B3AF47CEFDFD0D72EF30D /* Pods_AliexpressTests.framework */,
-				7716D5DBDA00EA19EA0F8D57E5789320 /* Pods_AliexpressUITests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		88A67BEEDE0859BD0D762068BC0097E8 /* Pods */ = {
@@ -673,22 +659,40 @@
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		966195C037F9F282E40682A2F09F4EB0 /* Pods-AliexpressUITests */ = {
+		925E9B26075E0F74746DCEF65B8510B0 /* Pods-AliexpressUITests */ = {
 			isa = PBXGroup;
 			children = (
-				4435565993AA3C3FB0DB59B152FAD4CF /* Info.plist */,
-				2A1F8834999801852F26B754799AD418 /* Pods-AliexpressUITests.modulemap */,
-				4B60396E5E51234D459D8C62AECE8BDB /* Pods-AliexpressUITests-acknowledgements.markdown */,
-				E9399BBCAD550D9EB0D0A2B109F6BBFF /* Pods-AliexpressUITests-acknowledgements.plist */,
-				173D93A2F55574D7A0B30F999560B53B /* Pods-AliexpressUITests-dummy.m */,
-				FF9418BE8E9DD05B1D4A8E393C287F7D /* Pods-AliexpressUITests-frameworks.sh */,
-				A990428B5CFBA2A6EB372A8817C1EFE1 /* Pods-AliexpressUITests-resources.sh */,
-				3D65ADA85C7EA0CDA507FE338E5C7596 /* Pods-AliexpressUITests-umbrella.h */,
-				AF0F1EA7843F05FA0852B697AA4B86A7 /* Pods-AliexpressUITests.debug.xcconfig */,
-				4FB3246DD8E271E8509C3837CF019EDD /* Pods-AliexpressUITests.release.xcconfig */,
+				7BBEE826454FAF87CD6A158B83BDB4C5 /* Info.plist */,
+				2A81FEEC26A2D197AE735CC2D1EEC374 /* Pods-AliexpressUITests.modulemap */,
+				9C12029F745713D21E369927F721BA99 /* Pods-AliexpressUITests-acknowledgements.markdown */,
+				8EADBC0FFE62269E598B4B7C74F4A657 /* Pods-AliexpressUITests-acknowledgements.plist */,
+				9C699B7BF3037F91931F81016A12D697 /* Pods-AliexpressUITests-dummy.m */,
+				513DCB81FEEA20EB0DBB6F855BF3686B /* Pods-AliexpressUITests-frameworks.sh */,
+				67DC32733D0342D8B23F86258CCFCFD7 /* Pods-AliexpressUITests-resources.sh */,
+				71FD689E87C8DD8E387F4249AA9A3505 /* Pods-AliexpressUITests-umbrella.h */,
+				C4392FB9D39774F2F86C0D6599069BD6 /* Pods-AliexpressUITests.debug.xcconfig */,
+				5000C50C89752EEC269151AD9F31BB65 /* Pods-AliexpressUITests.release.xcconfig */,
 			);
 			name = "Pods-AliexpressUITests";
 			path = "Target Support Files/Pods-AliexpressUITests";
+			sourceTree = "<group>";
+		};
+		A07C7F85136D483F45FBF945B2164695 /* Pods-Aliexpress */ = {
+			isa = PBXGroup;
+			children = (
+				E82A438A5BEF17385BCF6130A668FC8F /* Info.plist */,
+				ECE69835242F500275E1DFBD7BA42915 /* Pods-Aliexpress.modulemap */,
+				6B7A1D277C701E15648876CADAEDA8B7 /* Pods-Aliexpress-acknowledgements.markdown */,
+				19794D9D76C0A6CC537EBCF6FA2D0E40 /* Pods-Aliexpress-acknowledgements.plist */,
+				8769775C5DAF874B08D965C45788056F /* Pods-Aliexpress-dummy.m */,
+				474A4DAD9110B81C6A9DAEFB27D82028 /* Pods-Aliexpress-frameworks.sh */,
+				D85E67277121484402EDD4FC244560F8 /* Pods-Aliexpress-resources.sh */,
+				A09864B53D746FEB5AAE89E02A120732 /* Pods-Aliexpress-umbrella.h */,
+				A6DFB559E39D34756A023166511FE50B /* Pods-Aliexpress.debug.xcconfig */,
+				70CA95016D9F12C7138940225F873075 /* Pods-Aliexpress.release.xcconfig */,
+			);
+			name = "Pods-Aliexpress";
+			path = "Target Support Files/Pods-Aliexpress";
 			sourceTree = "<group>";
 		};
 		AF52ADCFC842694F7920DFC264D29A21 /* Support Files */ = {
@@ -705,32 +709,22 @@
 			path = "../Target Support Files/Kingfisher";
 			sourceTree = "<group>";
 		};
-		B26E56C5FECB14104A06AA9A27696573 /* Targets Support Files */ = {
+		CE9585B5467940DACC193E42E70E845A /* Pods-Aliexpress-AliexpressTests */ = {
 			isa = PBXGroup;
 			children = (
-				C8AACD0F1384EF1A5B380F265F661000 /* Pods-Aliexpress */,
-				5839913363B7E5CD80EF8A6036734373 /* Pods-AliexpressTests */,
-				966195C037F9F282E40682A2F09F4EB0 /* Pods-AliexpressUITests */,
+				EDEA91C173016AEB42D5774246B02585 /* Info.plist */,
+				660EDA3A09EFAE6C853B5944133EF7AF /* Pods-Aliexpress-AliexpressTests.modulemap */,
+				F170C6492D23B57F5F9536B0082DDB7C /* Pods-Aliexpress-AliexpressTests-acknowledgements.markdown */,
+				2D79937DB623E547921988E4448C8E42 /* Pods-Aliexpress-AliexpressTests-acknowledgements.plist */,
+				A580B172C4B34E64FA8C4728BC42A9D3 /* Pods-Aliexpress-AliexpressTests-dummy.m */,
+				0D984A63F754646AE74FCD42B5BD5D11 /* Pods-Aliexpress-AliexpressTests-frameworks.sh */,
+				AB853CDA2D7D44963676EA462CA1FD05 /* Pods-Aliexpress-AliexpressTests-resources.sh */,
+				E5A25FF25476B7B6065DCE926107FB1B /* Pods-Aliexpress-AliexpressTests-umbrella.h */,
+				686A901408316130F89AAECBC01963E0 /* Pods-Aliexpress-AliexpressTests.debug.xcconfig */,
+				C0CEC32A0DD9E4900B5C44317573B8D2 /* Pods-Aliexpress-AliexpressTests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		C8AACD0F1384EF1A5B380F265F661000 /* Pods-Aliexpress */ = {
-			isa = PBXGroup;
-			children = (
-				9EE520450D66E978C6FB25C4A674284F /* Info.plist */,
-				C7325ED93B7F5C18C5ED00ACD28B0DC0 /* Pods-Aliexpress.modulemap */,
-				D896D28482C19C802851A75B17F07D4F /* Pods-Aliexpress-acknowledgements.markdown */,
-				FC88D79A2901B85E6430DD9E3A9C90CF /* Pods-Aliexpress-acknowledgements.plist */,
-				BD7ECF767C3A6FD740B06508EC8547F0 /* Pods-Aliexpress-dummy.m */,
-				3482F0B788A8BA1F0C5064FA59460164 /* Pods-Aliexpress-frameworks.sh */,
-				608D2AEC0E45E8ACE4DA711220C6EFEC /* Pods-Aliexpress-resources.sh */,
-				1F36B250B58A1697881B180971D57A79 /* Pods-Aliexpress-umbrella.h */,
-				32EA1F568A338EE9150F837338E75906 /* Pods-Aliexpress.debug.xcconfig */,
-				01B2D7B5895E7482B7D626D5247240FA /* Pods-Aliexpress.release.xcconfig */,
-			);
-			name = "Pods-Aliexpress";
-			path = "Target Support Files/Pods-Aliexpress";
+			name = "Pods-Aliexpress-AliexpressTests";
+			path = "Target Support Files/Pods-Aliexpress-AliexpressTests";
 			sourceTree = "<group>";
 		};
 		E8DF928ACE4DDE66A0350050C183EB1D /* Kingfisher */ = {
@@ -787,6 +781,19 @@
 			path = Kingfisher;
 			sourceTree = "<group>";
 		};
+		F58F88D39B555FF83F4C75EC65B9F683 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB999CE40AE37F764698FE022222DD64 /* Alamofire.framework */,
+				921AE4E82F180076DB78E663C74A5847 /* Kingfisher.framework */,
+				3ABC7988832AEE1E16841618450E794B /* Nimble.framework */,
+				E58AB8EC27ADC2A95912C40A402179B1 /* Pods_Aliexpress.framework */,
+				02E6609EC593024142885BC4FCBD7207 /* Pods_Aliexpress_AliexpressTests.framework */,
+				A3D3E9D81CAEF5B304F5EE89D0028400 /* Pods_AliexpressUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -804,6 +811,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				35A6181DEF1FAE4D02EA28D58256258B /* Pods-AliexpressUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56FDEE7AD6D248DE9B81901D2BBD0D6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E936046C912A1C2CE374F560C7BC9259 /* Pods-Aliexpress-AliexpressTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -839,35 +854,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC2FDE0A9CC2E4CEA208F6F78DC5FD09 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C6C69D3F36CE58DF92AF710E9D6AE9B1 /* Pods-AliexpressTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		08CE3E388D8C181B6C3FCAD848FBBB45 /* Pods-AliexpressTests */ = {
+		19FD5F5B088F752F3C387BC76AC9F661 /* Pods-Aliexpress-AliexpressTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BA451E29B41B35A589E44F2DFEFC1AE /* Build configuration list for PBXNativeTarget "Pods-AliexpressTests" */;
+			buildConfigurationList = D5EE9D8D5E3B2163C8D33AD09270FDDC /* Build configuration list for PBXNativeTarget "Pods-Aliexpress-AliexpressTests" */;
 			buildPhases = (
-				EC2FDE0A9CC2E4CEA208F6F78DC5FD09 /* Headers */,
-				0732CBB28B6E01C36269C83F9C4E07FF /* Sources */,
-				E02F2031E2B5A45028FDAEC53F9FA36A /* Frameworks */,
-				DE7D0C3311232F349D1B5558D8C7EF23 /* Resources */,
+				56FDEE7AD6D248DE9B81901D2BBD0D6F /* Headers */,
+				3D2203E956E7412DC3D1B55693A97469 /* Sources */,
+				A9D0A6D6CA5F8579069FEC9839C943E5 /* Frameworks */,
+				03DA7ADCECE71D2E48B3F1D06084C078 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ECEC4851420CEFA75801350D2C67DB2B /* PBXTargetDependency */,
-				82DB28961F3F93A33E2EA91335360CD2 /* PBXTargetDependency */,
+				D3D1258E50C190E977D60AE79B4F9D87 /* PBXTargetDependency */,
+				C5684154F72A8FE4839F6BCFDDFF642A /* PBXTargetDependency */,
+				7BBA86E3F8BB962672EC8FE309A2AF9E /* PBXTargetDependency */,
 			);
-			name = "Pods-AliexpressTests";
-			productName = "Pods-AliexpressTests";
-			productReference = CCF5C2710A7B3AF47CEFDFD0D72EF30D /* Pods_AliexpressTests.framework */;
+			name = "Pods-Aliexpress-AliexpressTests";
+			productName = "Pods-Aliexpress-AliexpressTests";
+			productReference = 02E6609EC593024142885BC4FCBD7207 /* Pods_Aliexpress_AliexpressTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		43D93432771DDE1405D146C7028C512D /* Pods-Aliexpress */ = {
@@ -887,7 +895,7 @@
 			);
 			name = "Pods-Aliexpress";
 			productName = "Pods-Aliexpress";
-			productReference = E551255AB91CD03D40C7E518140B083A /* Pods_Aliexpress.framework */;
+			productReference = E58AB8EC27ADC2A95912C40A402179B1 /* Pods_Aliexpress.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		46D23D574A977D2A012EC4B6954BFCFF /* Kingfisher */ = {
@@ -905,7 +913,7 @@
 			);
 			name = Kingfisher;
 			productName = Kingfisher;
-			productReference = 03C0D938FCA00AE0F956C7DEBD27FE02 /* Kingfisher.framework */;
+			productReference = 921AE4E82F180076DB78E663C74A5847 /* Kingfisher.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4F149A36BA60F53074535E8493E2482D /* Pods-AliexpressUITests */ = {
@@ -924,7 +932,7 @@
 			);
 			name = "Pods-AliexpressUITests";
 			productName = "Pods-AliexpressUITests";
-			productReference = 7716D5DBDA00EA19EA0F8D57E5789320 /* Pods_AliexpressUITests.framework */;
+			productReference = A3D3E9D81CAEF5B304F5EE89D0028400 /* Pods_AliexpressUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5E269AA9A7FBCB9BFD8EA487B43AE7F9 /* Nimble */ = {
@@ -942,7 +950,7 @@
 			);
 			name = Nimble;
 			productName = Nimble;
-			productReference = 862612B61BD83C716232AD67FA421BC6 /* Nimble.framework */;
+			productReference = 3ABC7988832AEE1E16841618450E794B /* Nimble.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E76458C58C9140B6A16D60547E68E80C /* Alamofire */ = {
@@ -960,7 +968,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 785E1BAB56FD5B77448D37D3FCBF87B1 /* Alamofire.framework */;
+			productReference = CB999CE40AE37F764698FE022222DD64 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -980,7 +988,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 881C501E6FB7FF9DFB459BDF8A7E8C5C /* Products */;
+			productRefGroup = F58F88D39B555FF83F4C75EC65B9F683 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -988,13 +996,20 @@
 				46D23D574A977D2A012EC4B6954BFCFF /* Kingfisher */,
 				5E269AA9A7FBCB9BFD8EA487B43AE7F9 /* Nimble */,
 				43D93432771DDE1405D146C7028C512D /* Pods-Aliexpress */,
-				08CE3E388D8C181B6C3FCAD848FBBB45 /* Pods-AliexpressTests */,
+				19FD5F5B088F752F3C387BC76AC9F661 /* Pods-Aliexpress-AliexpressTests */,
 				4F149A36BA60F53074535E8493E2482D /* Pods-AliexpressUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		03DA7ADCECE71D2E48B3F1D06084C078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0B1E378A097BA65F54F3277AF8D943E7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1024,13 +1039,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DB86DA4EDA797FB306B5EC1F70A3C13A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE7D0C3311232F349D1B5558D8C7EF23 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1109,11 +1117,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0732CBB28B6E01C36269C83F9C4E07FF /* Sources */ = {
+		3D2203E956E7412DC3D1B55693A97469 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				829C90CDDBF0789D62526F6595CE75AA /* Pods-AliexpressTests-dummy.m in Sources */,
+				F4F3398214B0924E6314BCB576307A30 /* Pods-Aliexpress-AliexpressTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1225,11 +1233,17 @@
 			target = 43D93432771DDE1405D146C7028C512D /* Pods-Aliexpress */;
 			targetProxy = CE8BE2BF87EA812C9256A241ED4FDCC3 /* PBXContainerItemProxy */;
 		};
-		82DB28961F3F93A33E2EA91335360CD2 /* PBXTargetDependency */ = {
+		7BBA86E3F8BB962672EC8FE309A2AF9E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Aliexpress";
-			target = 43D93432771DDE1405D146C7028C512D /* Pods-Aliexpress */;
-			targetProxy = CEE4080096687A7F3D01924AFDD562E6 /* PBXContainerItemProxy */;
+			name = Nimble;
+			target = 5E269AA9A7FBCB9BFD8EA487B43AE7F9 /* Nimble */;
+			targetProxy = B62D108C623F2B5C35AB3AAD1703D9E8 /* PBXContainerItemProxy */;
+		};
+		C5684154F72A8FE4839F6BCFDDFF642A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kingfisher;
+			target = 46D23D574A977D2A012EC4B6954BFCFF /* Kingfisher */;
+			targetProxy = DECA636C3B032292E9F846AEFDB5452C /* PBXContainerItemProxy */;
 		};
 		CC2744B257AA5FE6759869E468339BE3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1237,11 +1251,11 @@
 			target = E76458C58C9140B6A16D60547E68E80C /* Alamofire */;
 			targetProxy = BAED9560D483BBE990178CC726A53015 /* PBXContainerItemProxy */;
 		};
-		ECEC4851420CEFA75801350D2C67DB2B /* PBXTargetDependency */ = {
+		D3D1258E50C190E977D60AE79B4F9D87 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Nimble;
-			target = 5E269AA9A7FBCB9BFD8EA487B43AE7F9 /* Nimble */;
-			targetProxy = 91BCD2E105082BB41DE9375462212147 /* PBXContainerItemProxy */;
+			name = Alamofire;
+			target = E76458C58C9140B6A16D60547E68E80C /* Alamofire */;
+			targetProxy = F12E6E3B6BBC7B3BC24EA92C1FA510A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1312,45 +1326,6 @@
 			};
 			name = Debug;
 		};
-		16109B3F81F6A6F3A05A9A9C538448D7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2C629D0AB2479924BADB695A4DE5971 /* Pods-AliexpressTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AliexpressTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AliexpressTests/Pods-AliexpressTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1EAFDB7DE59A16060DF36FC40DC2E750 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EF4CCE8058F52BEBAE38B84269850EA5 /* Alamofire.xcconfig */;
@@ -1389,7 +1364,7 @@
 		};
 		286AFD5BC292C01A21C14DA851F8399A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF0F1EA7843F05FA0852B697AA4B86A7 /* Pods-AliexpressUITests.debug.xcconfig */;
+			baseConfigurationReference = C4392FB9D39774F2F86C0D6599069BD6 /* Pods-AliexpressUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1427,7 +1402,7 @@
 		};
 		52C892DE0ADA0D35418A4518E2E697F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32EA1F568A338EE9150F837338E75906 /* Pods-Aliexpress.debug.xcconfig */;
+			baseConfigurationReference = A6DFB559E39D34756A023166511FE50B /* Pods-Aliexpress.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1536,7 +1511,7 @@
 		};
 		6FAA6D25FDFB0E58233F27C37DA46353 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01B2D7B5895E7482B7D626D5247240FA /* Pods-Aliexpress.release.xcconfig */;
+			baseConfigurationReference = 70CA95016D9F12C7138940225F873075 /* Pods-Aliexpress.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1708,47 +1683,9 @@
 			};
 			name = Debug;
 		};
-		8F1C193BE239AC7246DDC7DFC3111CD7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E3EB6480B1906F42E4BCC6B66B6ACA9 /* Pods-AliexpressTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AliexpressTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AliexpressTests/Pods-AliexpressTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		C3A69C97C28EEEF6EAABDA3784002CD3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FB3246DD8E271E8509C3837CF019EDD /* Pods-AliexpressUITests.release.xcconfig */;
+			baseConfigurationReference = 5000C50C89752EEC269151AD9F31BB65 /* Pods-AliexpressUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1784,6 +1721,83 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		CC2302EBA5096B2763EC7A3D33577BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0CEC32A0DD9E4900B5C44317573B8D2 /* Pods-Aliexpress-AliexpressTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Aliexpress-AliexpressTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Aliexpress-AliexpressTests/Pods-Aliexpress-AliexpressTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3F3C74AB30A1470D586D976CC76892F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 686A901408316130F89AAECBC01963E0 /* Pods-Aliexpress-AliexpressTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Aliexpress-AliexpressTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Aliexpress-AliexpressTests/Pods-Aliexpress-AliexpressTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		F9711F223F590669E94B504F3CC44301 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1841,15 +1855,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BA451E29B41B35A589E44F2DFEFC1AE /* Build configuration list for PBXNativeTarget "Pods-AliexpressTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8F1C193BE239AC7246DDC7DFC3111CD7 /* Debug */,
-				16109B3F81F6A6F3A05A9A9C538448D7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1882,6 +1887,15 @@
 			buildConfigurations = (
 				52C892DE0ADA0D35418A4518E2E697F2 /* Debug */,
 				6FAA6D25FDFB0E58233F27C37DA46353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5EE9D8D5E3B2163C8D33AD09270FDDC /* Build configuration list for PBXNativeTarget "Pods-Aliexpress-AliexpressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F3C74AB30A1470D586D976CC76892F /* Debug */,
+				CC2302EBA5096B2763EC7A3D33577BF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
