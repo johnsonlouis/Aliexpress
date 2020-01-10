@@ -1,6 +1,0 @@
-module Pods_Aliexpress {
-  umbrella header "Pods-Aliexpress-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,0 +1,38 @@
+output_dir: Aliexpress/Generated/SwiftGen/
+ib:
+  inputs:
+    - Aliexpress/Resources/Storyboards
+  filter: .+\.storyboard$
+  outputs:
+  - templateName: scenes-swift4
+    output: StoryboardScenes.swift
+    params:
+      ignoreTargetModule: true
+  - templateName: segues-swift4
+    output: StoryboardSegues.swift
+    params:
+      ignoreTargetModule: true
+strings:
+  inputs:
+    - Aliexpress/Resources/Aliexpress-localizable.strings
+  outputs:
+    - templateName: structured-swift4
+      output: Strings.swift
+xcassets:
+  inputs:
+    - Aliexpress/Resources/Assets.xcassets
+  outputs:
+    - templateName: swift4
+      output: Assets.swift
+colors:
+  inputs:
+    - Aliexpress/Resources/Colors/colors.txt
+  outputs:
+    - templateName: swift4
+      output: Colors.swift
+fonts:
+  inputs:
+    - Aliexpress/Resources/Fonts
+  outputs:
+    - templateName: swift4
+      output: Fonts.swift

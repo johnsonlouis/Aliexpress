@@ -13,8 +13,7 @@ public protocol ImageLoader {
 }
 
 public extension ImageLoader {
-  
-  public func loadImage(imageView: UIImageView, url: URL?, placeholder: UIImage?, completionHandler: @escaping () -> Void) {
+  func loadImage(imageView: UIImageView, url: URL?, placeholder: UIImage?, completionHandler: @escaping () -> Void) {
     loadImage(imageView: imageView, url: url, placeholder: placeholder, animated: false, completionHandler: completionHandler)
   }
 }

@@ -1,14 +1,14 @@
 # platform :ios, '9.0'
 target 'Aliexpress' do
-  pod 'Alamofire', '~> 4.8.1'
-  pod 'Sourcery', '~> 0.15.0'
-  pod 'SwiftGen', '~> 6.0.2'
-  pod 'Kingfisher', '~> 5.1'
-  pod 'SwiftLint', '~> 0.30.0'
+  pod 'Alamofire', '~> 4.9.1'
+  pod 'Sourcery', '~> 0.17.0'
+  pod 'SwiftGen', '~> 6.1.0'
+  pod 'Kingfisher', '~> 5.12.0'
+  pod 'SwiftLint', '~> 0.38.0'
 
   target 'AliexpressTests' do
-    pod 'Sourcery', '~> 0.15.0'
-    pod 'Nimble', '~> 7.3'
+    pod 'Sourcery', '~>0.17.0'
+    pod 'Nimble', '~> 8.0.4'
   end
 
   target 'AliexpressUITests' do

@@ -12,8 +12,6 @@
 		2C371FED21FB8A6700CDC8A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C371FEB21FB8A6700CDC8A5 /* LaunchScreen.storyboard */; };
 		2C37200321FB8A6700CDC8A5 /* AliexpressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C37200221FB8A6700CDC8A5 /* AliexpressUITests.swift */; };
 		2C9E3B9221FB916D009E696B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C9E3B9121FB916D009E696B /* Assets.xcassets */; };
-		2C9E3B9621FB9198009E696B /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9E3B9421FB9197009E696B /* Storyboards.swift */; };
-		2C9E3B9721FB9198009E696B /* GeneratedAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9E3B9521FB9197009E696B /* GeneratedAssets.swift */; };
 		2CB3A32C21FBA62B00E82209 /* CategoriesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3A32B21FBA62B00E82209 /* CategoriesRepository.swift */; };
 		2CB3A32E21FBA95400E82209 /* CategoriesRepositoryInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3A32D21FBA95400E82209 /* CategoriesRepositoryInput.swift */; };
 		2CB3A33221FBA9FF00E82209 /* CategoriesRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3A33121FBA9FF00E82209 /* CategoriesRepositoryTests.swift */; };
@@ -51,7 +49,6 @@
 		2CB3A38921FC394C00E82209 /* CategoriesPresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3A38821FC394C00E82209 /* CategoriesPresenterInput.swift */; };
 		2CB3A38B21FC395C00E82209 /* CategoriesPresenterOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3A38A21FC395C00E82209 /* CategoriesPresenterOutput.swift */; };
 		2CB3A38D21FC402400E82209 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3A38C21FC402400E82209 /* CategoryTableViewCell.swift */; };
-		2CB3A39021FC7EB500E82209 /* GeneratedLocalizableStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3A38F21FC7EB400E82209 /* GeneratedLocalizableStrings.swift */; };
 		2CB3A39221FC80FD00E82209 /* String+ NSLocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3A39121FC80FD00E82209 /* String+ NSLocalizedString.swift */; };
 		2CB3A39421FC86E500E82209 /* ProductsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3A39321FC86E500E82209 /* ProductsListViewController.swift */; };
 		2CB3A39621FC8A8600E82209 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3A39521FC8A8600E82209 /* ProductCollectionViewCell.swift */; };
@@ -68,6 +65,13 @@
 		396AB48AED5061230F4B3CBF /* libPods-Aliexpress-AliexpressTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1040050AE16921D5EBB835E0 /* libPods-Aliexpress-AliexpressTests.a */; };
 		A44572E260617A32B771EC9A /* libPods-AliexpressUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 756533B713FC5D6DC0351575 /* libPods-AliexpressUITests.a */; };
 		BAC71AA4E01868902763A748 /* libPods-Aliexpress.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CFBDE6DE4C7520E250805E /* libPods-Aliexpress.a */; };
+		CEC5AD9A23C92AC00073CC3A /* colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = CEC5AD9923C92AC00073CC3A /* colors.txt */; };
+		CEC5ADA323C92BB60073CC3A /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5AD9D23C92BB50073CC3A /* Fonts.swift */; };
+		CEC5ADA423C92BB60073CC3A /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5AD9E23C92BB60073CC3A /* Assets.swift */; };
+		CEC5ADA523C92BB60073CC3A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5AD9F23C92BB60073CC3A /* Colors.swift */; };
+		CEC5ADA623C92BB60073CC3A /* StoryboardScenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5ADA023C92BB60073CC3A /* StoryboardScenes.swift */; };
+		CEC5ADA723C92BB60073CC3A /* StoryboardSegues.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5ADA123C92BB60073CC3A /* StoryboardSegues.swift */; };
+		CEC5ADA823C92BB60073CC3A /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5ADA223C92BB60073CC3A /* Strings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,8 +106,6 @@
 		2C37200221FB8A6700CDC8A5 /* AliexpressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliexpressUITests.swift; sourceTree = "<group>"; };
 		2C37200421FB8A6700CDC8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C9E3B9121FB916D009E696B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2C9E3B9421FB9197009E696B /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
-		2C9E3B9521FB9197009E696B /* GeneratedAssets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratedAssets.swift; sourceTree = "<group>"; };
 		2CB3A32B21FBA62B00E82209 /* CategoriesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesRepository.swift; sourceTree = "<group>"; };
 		2CB3A32D21FBA95400E82209 /* CategoriesRepositoryInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesRepositoryInput.swift; sourceTree = "<group>"; };
 		2CB3A33121FBA9FF00E82209 /* CategoriesRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesRepositoryTests.swift; sourceTree = "<group>"; };
@@ -141,7 +143,6 @@
 		2CB3A38821FC394C00E82209 /* CategoriesPresenterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesPresenterInput.swift; sourceTree = "<group>"; };
 		2CB3A38A21FC395C00E82209 /* CategoriesPresenterOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesPresenterOutput.swift; sourceTree = "<group>"; };
 		2CB3A38C21FC402400E82209 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
-		2CB3A38F21FC7EB400E82209 /* GeneratedLocalizableStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratedLocalizableStrings.swift; sourceTree = "<group>"; };
 		2CB3A39121FC80FD00E82209 /* String+ NSLocalizedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ NSLocalizedString.swift"; sourceTree = "<group>"; };
 		2CB3A39321FC86E500E82209 /* ProductsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListViewController.swift; sourceTree = "<group>"; };
 		2CB3A39521FC8A8600E82209 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -158,6 +159,13 @@
 		72CFBDE6DE4C7520E250805E /* libPods-Aliexpress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Aliexpress.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		746002C8CB06A6FC19C8A9DE /* Pods-Aliexpress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aliexpress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aliexpress/Pods-Aliexpress.debug.xcconfig"; sourceTree = "<group>"; };
 		756533B713FC5D6DC0351575 /* libPods-AliexpressUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AliexpressUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC5AD9923C92AC00073CC3A /* colors.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = colors.txt; sourceTree = "<group>"; };
+		CEC5AD9D23C92BB50073CC3A /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		CEC5AD9E23C92BB60073CC3A /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		CEC5AD9F23C92BB60073CC3A /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CEC5ADA023C92BB60073CC3A /* StoryboardScenes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardScenes.swift; sourceTree = "<group>"; };
+		CEC5ADA123C92BB60073CC3A /* StoryboardSegues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardSegues.swift; sourceTree = "<group>"; };
+		CEC5ADA223C92BB60073CC3A /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		D5A4EFEA322E716EBDCF4EED /* Pods-Aliexpress-AliexpressTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aliexpress-AliexpressTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aliexpress-AliexpressTests/Pods-Aliexpress-AliexpressTests.release.xcconfig"; sourceTree = "<group>"; };
 		E179032D7D6D655E1746F352 /* Pods-AliexpressUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliexpressUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AliexpressUITests/Pods-AliexpressUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E2F76E2EA3A711F3869E5C0D /* Pods-Aliexpress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aliexpress.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aliexpress/Pods-Aliexpress.release.xcconfig"; sourceTree = "<group>"; };
@@ -232,8 +240,7 @@
 			children = (
 				2C08AC3121FB9AB0002AAC99 /* Classes */,
 				2C9E3B9321FB9197009E696B /* Generated */,
-				2CDF2C5E21FB90BF000A7221 /* Ressources */,
-				2C371FE621FB8A6100CDC8A5 /* Main.storyboard */,
+				2CDF2C5E21FB90BF000A7221 /* Resources */,
 				2C371FEB21FB8A6700CDC8A5 /* LaunchScreen.storyboard */,
 				2C371FEE21FB8A6700CDC8A5 /* Info.plist */,
 			);
@@ -271,9 +278,7 @@
 		2C9E3B9321FB9197009E696B /* Generated */ = {
 			isa = PBXGroup;
 			children = (
-				2C9E3B9521FB9197009E696B /* GeneratedAssets.swift */,
-				2CB3A38F21FC7EB400E82209 /* GeneratedLocalizableStrings.swift */,
-				2C9E3B9421FB9197009E696B /* Storyboards.swift */,
+				CEC5AD9B23C92B2E0073CC3A /* SwiftGen */,
 			);
 			path = Generated;
 			sourceTree = "<group>";
@@ -478,13 +483,16 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
-		2CDF2C5E21FB90BF000A7221 /* Ressources */ = {
+		2CDF2C5E21FB90BF000A7221 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CEC5AD9C23C92B6C0073CC3A /* Storyboards */,
+				CEC5AD9823C92AA20073CC3A /* Colors */,
+				CEC5AD9723C92A9A0073CC3A /* Fonts */,
 				2CDF2C5F21FB90E6000A7221 /* Aliexpress-localizable.strings */,
 				2C9E3B9121FB916D009E696B /* Assets.xcassets */,
 			);
-			path = Ressources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		4547A0F6F971074A96785CF6 /* Frameworks */ = {
@@ -508,6 +516,42 @@
 				06F0536E0E4B9FC56BDB13E2 /* Pods-AliexpressUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEC5AD9723C92A9A0073CC3A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CEC5AD9823C92AA20073CC3A /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				CEC5AD9923C92AC00073CC3A /* colors.txt */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		CEC5AD9B23C92B2E0073CC3A /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				CEC5AD9E23C92BB60073CC3A /* Assets.swift */,
+				CEC5AD9F23C92BB60073CC3A /* Colors.swift */,
+				CEC5AD9D23C92BB50073CC3A /* Fonts.swift */,
+				CEC5ADA023C92BB60073CC3A /* StoryboardScenes.swift */,
+				CEC5ADA123C92BB60073CC3A /* StoryboardSegues.swift */,
+				CEC5ADA223C92BB60073CC3A /* Strings.swift */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		CEC5AD9C23C92B6C0073CC3A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2C371FE621FB8A6100CDC8A5 /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -582,13 +626,16 @@
 				TargetAttributes = {
 					2C371FDE21FB8A6100CDC8A5 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1130;
 					};
 					2C371FF221FB8A6700CDC8A5 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1130;
 						TestTargetID = 2C371FDE21FB8A6100CDC8A5;
 					};
 					2C371FFD21FB8A6700CDC8A5 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1130;
 						TestTargetID = 2C371FDE21FB8A6100CDC8A5;
 					};
 				};
@@ -618,6 +665,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC5AD9A23C92AC00073CC3A /* colors.txt in Resources */,
 				2C371FED21FB8A6700CDC8A5 /* LaunchScreen.storyboard in Resources */,
 				2CDF2C6021FB90E6000A7221 /* Aliexpress-localizable.strings in Resources */,
 				2C9E3B9221FB916D009E696B /* Assets.xcassets in Resources */,
@@ -663,7 +711,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./SwiftGenTemplates/swiftgen.sh\n";
+			shellScript = "if which $PODS_ROOT/SwiftGen/bin/swiftgen >/dev/null; then\n$PODS_ROOT/SwiftGen/bin/swiftgen \nelse\necho \"warning: SwiftGen not installed in target yatta, download it from https://github.com/AliSoftware/SwiftGen\"\nfi\n";
 		};
 		85906A8E522DCFD80A90FB15 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -742,7 +790,6 @@
 				2CB3A38B21FC395C00E82209 /* CategoriesPresenterOutput.swift in Sources */,
 				2CB3A38921FC394C00E82209 /* CategoriesPresenterInput.swift in Sources */,
 				2CB3A36B21FBD44400E82209 /* ProductsListRepository.swift in Sources */,
-				2C9E3B9621FB9198009E696B /* Storyboards.swift in Sources */,
 				2CB3A36D21FBD45200E82209 /* ProductsListRepositoryInput.swift in Sources */,
 				2CB3A34821FBBB6B00E82209 /* ProductItem.swift in Sources */,
 				2CB3A38121FC2BAA00E82209 /* CategoriesInteractor.swift in Sources */,
@@ -752,8 +799,10 @@
 				2CB3A36621FBCDC400E82209 /* ApiConnector.swift in Sources */,
 				2CB3A32E21FBA95400E82209 /* CategoriesRepositoryInput.swift in Sources */,
 				2CB3A38721FC393A00E82209 /* CategoriesPresenter.swift in Sources */,
+				CEC5ADA623C92BB60073CC3A /* StoryboardScenes.swift in Sources */,
 				2CB3A39621FC8A8600E82209 /* ProductCollectionViewCell.swift in Sources */,
 				2CB3A35C21FBC62D00E82209 /* ProductsList.swift in Sources */,
+				CEC5ADA323C92BB60073CC3A /* Fonts.swift in Sources */,
 				2CB3A39F21FCA49300E82209 /* ProductsListInteractorOutput.swift in Sources */,
 				2CB3A38321FC2BB800E82209 /* CategoriesInteractorInput.swift in Sources */,
 				2CB3A37121FBD4CE00E82209 /* ProductsListRepositoryError.swift in Sources */,
@@ -765,16 +814,18 @@
 				2CB3A33621FBABDF00E82209 /* CategoriesRepositoryError.swift in Sources */,
 				2CB3A3A121FCA59700E82209 /* ProductsListInteractorInput.swift in Sources */,
 				2CB3A33421FBAB4F00E82209 /* CategoriesRepositoryResponseProtocol.swift in Sources */,
+				CEC5ADA423C92BB60073CC3A /* Assets.swift in Sources */,
 				2CB3A3A421FCD57500E82209 /* RouterInput.swift in Sources */,
 				2CB3A38521FC2BC300E82209 /* CategoriesInteractorOutput.swift in Sources */,
+				CEC5ADA523C92BB60073CC3A /* Colors.swift in Sources */,
 				2CB3A37B21FC201200E82209 /* AliexpressApiConnector.swift in Sources */,
+				CEC5ADA723C92BB60073CC3A /* StoryboardSegues.swift in Sources */,
 				2CB3A34A21FBBE0100E82209 /* ProductPrice.swift in Sources */,
 				2CB3A32C21FBA62B00E82209 /* CategoriesRepository.swift in Sources */,
+				CEC5ADA823C92BB60073CC3A /* Strings.swift in Sources */,
 				2CB3A39821FC8BB900E82209 /* ImageLoader.swift in Sources */,
-				2C9E3B9721FB9198009E696B /* GeneratedAssets.swift in Sources */,
 				2CB3A37921FC1F4400E82209 /* ProductsListInteractor.swift in Sources */,
 				2CB3A3AC21FCE38F00E82209 /* ProductsListPresenterInput.swift in Sources */,
-				2CB3A39021FC7EB500E82209 /* GeneratedLocalizableStrings.swift in Sources */,
 				2CB3A37D21FC2B6900E82209 /* CategoriesViewController.swift in Sources */,
 				2C371FE321FB8A6100CDC8A5 /* AppDelegate.swift in Sources */,
 			);
@@ -969,7 +1020,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chichi29.Aliexpress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -988,7 +1039,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chichi29.Aliexpress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1008,7 +1059,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chichi29.AliexpressTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aliexpress.app/Aliexpress";
 			};
@@ -1029,7 +1080,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chichi29.AliexpressTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aliexpress.app/Aliexpress";
 			};
@@ -1049,7 +1100,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chichi29.AliexpressUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Aliexpress;
 			};
@@ -1069,7 +1120,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chichi29.AliexpressUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Aliexpress;
 			};

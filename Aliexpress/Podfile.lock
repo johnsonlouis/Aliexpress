@@ -1,21 +1,23 @@
 PODS:
-  - Alamofire (4.8.1)
-  - Kingfisher (5.1.0)
-  - Nimble (7.3.2)
-  - Sourcery (0.15.0)
-  - SwiftGen (6.0.2)
-  - SwiftLint (0.30.1)
+  - Alamofire (4.9.1)
+  - Kingfisher (5.12.0):
+    - Kingfisher/Core (= 5.12.0)
+  - Kingfisher/Core (5.12.0)
+  - Nimble (8.0.4)
+  - Sourcery (0.17.0)
+  - SwiftGen (6.1.0)
+  - SwiftLint (0.38.0)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.8.1)
-  - Kingfisher (~> 5.1)
-  - Nimble (~> 7.3)
-  - Sourcery (~> 0.15.0)
-  - SwiftGen (~> 6.0.2)
-  - SwiftLint (~> 0.30.0)
+  - Alamofire
+  - Kingfisher
+  - Nimble
+  - Sourcery
+  - SwiftGen
+  - SwiftLint
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Alamofire
     - Kingfisher
     - Nimble
@@ -24,13 +26,13 @@ SPEC REPOS:
     - SwiftLint
 
 SPEC CHECKSUMS:
-  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
-  Kingfisher: fcec238063d17404fca89bf0a850583211c4cbf6
-  Nimble: 5e94a8cacb355943c6c87198035dc4adbb0f10e4
-  Sourcery: 5895672cae353cdbfa95f3f4aaeb75a664d76f6a
-  SwiftGen: e5b047067aa84082826a0c4f1c4c2ddc95bcf74c
-  SwiftLint: a54bf1fe12b55c68560eb2a7689dfc81458508f7
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Kingfisher: dc6e0f53bb5b12c3e75bedb0e01bbd7a640eea69
+  Nimble: 18d5360282923225d62b09d781f63abc1a0111fc
+  Sourcery: 3ed61be7c8a1218fce349266139379dba477efe0
+  SwiftGen: f872ca75cbd17bf7103c17f13dcfa0d9a15667b0
+  SwiftLint: 4105f061f9812b214568b736dab580ab2c73a582
 
-PODFILE CHECKSUM: de13b027304b8c4820b07c4f5d963f269913b726
+PODFILE CHECKSUM: 15783e6abf81097173585a6c19d7efaa2af1695b
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.9.0.beta.2
