@@ -10,60 +10,54 @@ import UIKit
 
 @IBDesignable
 class ProductCollectionViewCell: UICollectionViewCell {
-  
-  @IBInspectable
-  public var cornerRadius: CGFloat = 0.0 {
-    didSet {
-      self.layer.cornerRadius = self.cornerRadius
-    }
-  }
-  
-  @IBInspectable
-  public var borderColor: UIColor = .clear {
-    didSet {
-      self.layer.borderColor = self.borderColor.cgColor
-    }
-  }
-  
-  @IBInspectable
-  public var borderWidth: CGFloat = 0 {
-    didSet {
-      self.layer.borderWidth = self.borderWidth
-    }
-  }
-  
-  // MARK: - IBOutlet
-  
-  @IBOutlet weak var imageView: UIImageView!
-  @IBOutlet weak var priceLabel: UILabel!
-  @IBOutlet weak var titleLabel: UILabel!
 
-  // MARK: - Property
-  
-  var imageLoader: ImageLoader!
-  
-  // MARK: - Public
-  
-  func configure(viewModel: ProductsListCellViewModelProtocol) {
-    priceLabel.text = viewModel.price
-    titleLabel.text = viewModel.title
-    guard let imageUrl = viewModel.imageUrl,
-      let url = URL(string: imageUrl) else {
-        loadImage(imageUrl: nil)
-        return
+    @IBInspectable
+    public var cornerRadius: CGFloat = 0.0 {
+        didSet {
+            self.layer.cornerRadius = self.cornerRadius
+        }
     }
-    loadImage(imageUrl: url)
-  }
-  
-  // MARK: - Private
 
-  private func loadImage(imageUrl: URL?) {
-    imageLoader.loadImage(imageView: imageView,
-                          url: imageUrl,
-                          placeholder: Asset.placeholder.image,
-                          animated: true,
-                          completionHandler: { [weak self] in
-                            self?.setNeedsLayout()}
-    )
-  }
+    @IBInspectable
+    public var borderColor: UIColor = .clear {
+        didSet {
+            self.layer.borderColor = self.borderColor.cgColor
+        }
+    }
+
+    @IBInspectable
+    public var borderWidth: CGFloat = 0 {
+        didSet {
+            self.layer.borderWidth = self.borderWidth
+        }
+    }
+
+    // MARK: - IBOutlet
+
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var priceLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
+
+    // MARK: - Public
+
+    func configure(viewModel: ProductsListCellViewModelProtocol) {
+        priceLabel.text = viewModel.price
+        titleLabel.text = viewModel.title
+        guard let imageUrl = viewModel.imageUrl,
+            let url = URL(string: imageUrl) else {
+                loadImage(imageUrl: nil)
+                return
+        }
+        loadImage(imageUrl: url)
+    }
+
+    // MARK: - Private
+
+    private func loadImage(imageUrl: URL?) {
+        imageView.load(url: imageUrl,
+                       placeholder: Asset.placeholder.image,
+                       animated: true) { [weak self] in
+                        self?.setNeedsLayout()
+        }
+    }
 }

@@ -9,14 +9,27 @@
 import Foundation
 import Kingfisher
 
-public final class AliexpressImageLoader {}
+public final class AliexpressImageLoader {
+    static let shared = AliexpressImageLoader()
+}
 
 extension AliexpressImageLoader: ImageLoader {
-  
-  public func loadImage(imageView: UIImageView, url: URL?, placeholder: UIImage?, animated: Bool, completionHandler: @escaping () -> Void?) {
-    let options: KingfisherOptionsInfo? = animated ? [.transition(ImageTransition.fade(1))] : nil
-    imageView.kf.setImage(with: url, placeholder: placeholder, options: options) { _ in
-      completionHandler()
+
+    public func loadImage(imageView: UIImageView, url: URL?, placeholder: UIImage?, animated: Bool, completionHandler: @escaping () -> Void?) {
+        let options: KingfisherOptionsInfo? = animated ? [.transition(ImageTransition.fade(1))] : nil
+        imageView.kf.setImage(with: url, placeholder: placeholder, options: options) { _ in
+            completionHandler()
+        }
     }
-  }
+}
+
+extension UIImageView {
+    
+    func load(url: URL?, placeholder: UIImage?, animated: Bool, completionHandler: @escaping () -> Void?) {
+        AliexpressImageLoader.shared.loadImage(imageView: self,
+                                               url: url,
+                                               placeholder: placeholder,
+                                               animated: animated,
+                                               completionHandler: completionHandler)
+    }
 }

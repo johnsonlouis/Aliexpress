@@ -101,7 +101,6 @@ extension ProductsListViewController: UICollectionViewDataSource {
       return UICollectionViewCell()
     }
     let viewModel = presenter.viewModelForRow(atIndexPath: indexPath)
-    cell.imageLoader = imageLoader
     cell.configure(viewModel: viewModel)
     return cell
   }
