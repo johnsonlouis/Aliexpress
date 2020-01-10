@@ -9,12 +9,12 @@ PODS:
   - SwiftLint (0.38.0)
 
 DEPENDENCIES:
-  - Alamofire
-  - Kingfisher
-  - Nimble
-  - Sourcery
-  - SwiftGen
-  - SwiftLint
+  - Alamofire (~> 4.9.1)
+  - Kingfisher (~> 5.12.0)
+  - Nimble (~> 8.0.4)
+  - Sourcery (~> 0.17.0)
+  - SwiftGen (~> 6.1.0)
+  - SwiftLint (~> 0.38.0)
 
 SPEC REPOS:
   trunk:
@@ -33,6 +33,6 @@ SPEC CHECKSUMS:
   SwiftGen: f872ca75cbd17bf7103c17f13dcfa0d9a15667b0
   SwiftLint: 4105f061f9812b214568b736dab580ab2c73a582
 
-PODFILE CHECKSUM: 15783e6abf81097173585a6c19d7efaa2af1695b
+PODFILE CHECKSUM: a9970c9880cd217cc2e1bdf49b8e7db009d189cb
 
 COCOAPODS: 1.9.0.beta.2
