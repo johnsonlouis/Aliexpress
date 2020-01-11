@@ -1,15 +1,13 @@
-// Generated using Sourcery 0.15.0 — https://github.com/krzysztofzablocki/Sourcery
+// Generated using Sourcery 0.17.0 — https://github.com/krzysztofzablocki/Sourcery
 // DO NOT EDIT
 
 
-// swiftlint:disable all
-// swiftlint:disable vertical_whitespace
+// swiftlint:disable line_length
+// swiftlint:disable variable_name
 
 import Foundation
 #if os(iOS) || os(tvOS) || os(watchOS)
 import UIKit
-import CoreLocation
-import LocalAuthentication
 #elseif os(OSX)
 import AppKit
 #endif
@@ -28,22 +26,23 @@ import AppKit
 
 
 
+
 class ApiConnectorMock: ApiConnector {
 
-    // MARK: - request
+    //MARK: - request
 
     var requestWithSuccessFailureCallsCount = 0
-    var requestWithSuccessFailureCalledOnQueueLabel: String?
     var requestWithSuccessFailureCalled: Bool {
         return requestWithSuccessFailureCallsCount > 0
     }
     var requestWithSuccessFailureReceivedArguments: (request: ApiRequestProtocol, success: (ApiResponseProtocol) -> Void, failure: (ApiError) -> Void)?
+    var requestWithSuccessFailureReceivedInvocations: [(request: ApiRequestProtocol, success: (ApiResponseProtocol) -> Void, failure: (ApiError) -> Void)] = []
     var requestWithSuccessFailureClosure: ((ApiRequestProtocol, @escaping (ApiResponseProtocol) -> Void, @escaping (ApiError) -> Void) -> Void)?
 
     func request(with request: ApiRequestProtocol,               success: @escaping (ApiResponseProtocol) -> Void,               failure: @escaping (ApiError) -> Void) {
         requestWithSuccessFailureCallsCount += 1
-        requestWithSuccessFailureCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         requestWithSuccessFailureReceivedArguments = (request: request, success: success, failure: failure)
+        requestWithSuccessFailureReceivedInvocations.append((request: request, success: success, failure: failure))
         requestWithSuccessFailureClosure?(request, success, failure)
     }
 
@@ -78,10 +77,9 @@ class ApiResponseProtocolMock: ApiResponseProtocol {
 }
 class CategoriesInteractorInputMock: CategoriesInteractorInput {
 
-    // MARK: - retrieve
+    //MARK: - retrieve
 
     var retrieveCallsCount = 0
-    var retrieveCalledOnQueueLabel: String?
     var retrieveCalled: Bool {
         return retrieveCallsCount > 0
     }
@@ -89,14 +87,12 @@ class CategoriesInteractorInputMock: CategoriesInteractorInput {
 
     func retrieve() {
         retrieveCallsCount += 1
-        retrieveCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         retrieveClosure?()
     }
 
-    // MARK: - numberOfCategories
+    //MARK: - numberOfCategories
 
     var numberOfCategoriesCallsCount = 0
-    var numberOfCategoriesCalledOnQueueLabel: String?
     var numberOfCategoriesCalled: Bool {
         return numberOfCategoriesCallsCount > 0
     }
@@ -105,107 +101,105 @@ class CategoriesInteractorInputMock: CategoriesInteractorInput {
 
     func numberOfCategories() -> Int {
         numberOfCategoriesCallsCount += 1
-        numberOfCategoriesCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         return numberOfCategoriesClosure.map({ $0() }) ?? numberOfCategoriesReturnValue
     }
 
-    // MARK: - numberOfItems
+    //MARK: - numberOfItems
 
     var numberOfItemsForCategoryIndexCallsCount = 0
-    var numberOfItemsForCategoryIndexCalledOnQueueLabel: String?
     var numberOfItemsForCategoryIndexCalled: Bool {
         return numberOfItemsForCategoryIndexCallsCount > 0
     }
     var numberOfItemsForCategoryIndexReceivedIndex: Int?
+    var numberOfItemsForCategoryIndexReceivedInvocations: [Int] = []
     var numberOfItemsForCategoryIndexReturnValue: Int!
     var numberOfItemsForCategoryIndexClosure: ((Int) -> Int)?
 
     func numberOfItems(forCategoryIndex index: Int) -> Int {
         numberOfItemsForCategoryIndexCallsCount += 1
-        numberOfItemsForCategoryIndexCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         numberOfItemsForCategoryIndexReceivedIndex = index
+        numberOfItemsForCategoryIndexReceivedInvocations.append(index)
         return numberOfItemsForCategoryIndexClosure.map({ $0(index) }) ?? numberOfItemsForCategoryIndexReturnValue
     }
 
-    // MARK: - item
+    //MARK: - item
 
     var itemAtIndexForCategoryIndexCallsCount = 0
-    var itemAtIndexForCategoryIndexCalledOnQueueLabel: String?
     var itemAtIndexForCategoryIndexCalled: Bool {
         return itemAtIndexForCategoryIndexCallsCount > 0
     }
     var itemAtIndexForCategoryIndexReceivedArguments: (index: Int, categoryIndex: Int)?
+    var itemAtIndexForCategoryIndexReceivedInvocations: [(index: Int, categoryIndex: Int)] = []
     var itemAtIndexForCategoryIndexReturnValue: CategoryItemProtocol!
     var itemAtIndexForCategoryIndexClosure: ((Int, Int) -> CategoryItemProtocol)?
 
     func item(atIndex index: Int, forCategoryIndex categoryIndex: Int) -> CategoryItemProtocol {
         itemAtIndexForCategoryIndexCallsCount += 1
-        itemAtIndexForCategoryIndexCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         itemAtIndexForCategoryIndexReceivedArguments = (index: index, categoryIndex: categoryIndex)
+        itemAtIndexForCategoryIndexReceivedInvocations.append((index: index, categoryIndex: categoryIndex))
         return itemAtIndexForCategoryIndexClosure.map({ $0(index, categoryIndex) }) ?? itemAtIndexForCategoryIndexReturnValue
     }
 
-    // MARK: - selectItem
+    //MARK: - selectItem
 
     var selectItemAtIndexForCategoryIndexCallsCount = 0
-    var selectItemAtIndexForCategoryIndexCalledOnQueueLabel: String?
     var selectItemAtIndexForCategoryIndexCalled: Bool {
         return selectItemAtIndexForCategoryIndexCallsCount > 0
     }
     var selectItemAtIndexForCategoryIndexReceivedArguments: (index: Int, categoryIndex: Int)?
+    var selectItemAtIndexForCategoryIndexReceivedInvocations: [(index: Int, categoryIndex: Int)] = []
     var selectItemAtIndexForCategoryIndexClosure: ((Int, Int) -> Void)?
 
     func selectItem(atIndex index: Int, forCategoryIndex categoryIndex: Int) {
         selectItemAtIndexForCategoryIndexCallsCount += 1
-        selectItemAtIndexForCategoryIndexCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         selectItemAtIndexForCategoryIndexReceivedArguments = (index: index, categoryIndex: categoryIndex)
+        selectItemAtIndexForCategoryIndexReceivedInvocations.append((index: index, categoryIndex: categoryIndex))
         selectItemAtIndexForCategoryIndexClosure?(index, categoryIndex)
     }
 
 }
 class CategoriesInteractorOutputMock: CategoriesInteractorOutput {
 
-    // MARK: - didRetrieve
+    //MARK: - didRetrieve
 
     var didRetrieveCateogoriesCallsCount = 0
-    var didRetrieveCateogoriesCalledOnQueueLabel: String?
     var didRetrieveCateogoriesCalled: Bool {
         return didRetrieveCateogoriesCallsCount > 0
     }
     var didRetrieveCateogoriesReceivedCateogories: [CategoryItemProtocol]?
+    var didRetrieveCateogoriesReceivedInvocations: [[CategoryItemProtocol]] = []
     var didRetrieveCateogoriesClosure: (([CategoryItemProtocol]) -> Void)?
 
     func didRetrieve(cateogories: [CategoryItemProtocol]) {
         didRetrieveCateogoriesCallsCount += 1
-        didRetrieveCateogoriesCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         didRetrieveCateogoriesReceivedCateogories = cateogories
+        didRetrieveCateogoriesReceivedInvocations.append(cateogories)
         didRetrieveCateogoriesClosure?(cateogories)
     }
 
-    // MARK: - didSelectItem
+    //MARK: - didSelectItem
 
     var didSelectItemAtIndexForCategoryIndexCallsCount = 0
-    var didSelectItemAtIndexForCategoryIndexCalledOnQueueLabel: String?
     var didSelectItemAtIndexForCategoryIndexCalled: Bool {
         return didSelectItemAtIndexForCategoryIndexCallsCount > 0
     }
     var didSelectItemAtIndexForCategoryIndexReceivedArguments: (item: CategoryItemProtocol, index: Int, categoryIndex: Int)?
+    var didSelectItemAtIndexForCategoryIndexReceivedInvocations: [(item: CategoryItemProtocol, index: Int, categoryIndex: Int)] = []
     var didSelectItemAtIndexForCategoryIndexClosure: ((CategoryItemProtocol, Int, Int) -> Void)?
 
     func didSelectItem(_ item: CategoryItemProtocol, atIndex index: Int, forCategoryIndex categoryIndex: Int) {
         didSelectItemAtIndexForCategoryIndexCallsCount += 1
-        didSelectItemAtIndexForCategoryIndexCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         didSelectItemAtIndexForCategoryIndexReceivedArguments = (item: item, index: index, categoryIndex: categoryIndex)
+        didSelectItemAtIndexForCategoryIndexReceivedInvocations.append((item: item, index: index, categoryIndex: categoryIndex))
         didSelectItemAtIndexForCategoryIndexClosure?(item, index, categoryIndex)
     }
 
 }
 class CategoriesPresenterInputMock: CategoriesPresenterInput {
 
-    // MARK: - viewDidLoad
+    //MARK: - viewDidLoad
 
     var viewDidLoadCallsCount = 0
-    var viewDidLoadCalledOnQueueLabel: String?
     var viewDidLoadCalled: Bool {
         return viewDidLoadCallsCount > 0
     }
@@ -213,31 +207,29 @@ class CategoriesPresenterInputMock: CategoriesPresenterInput {
 
     func viewDidLoad() {
         viewDidLoadCallsCount += 1
-        viewDidLoadCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         viewDidLoadClosure?()
     }
 
-    // MARK: - didSelectRow
+    //MARK: - didSelectRow
 
     var didSelectRowAtIndexPathCallsCount = 0
-    var didSelectRowAtIndexPathCalledOnQueueLabel: String?
     var didSelectRowAtIndexPathCalled: Bool {
         return didSelectRowAtIndexPathCallsCount > 0
     }
     var didSelectRowAtIndexPathReceivedIndexPath: IndexPath?
+    var didSelectRowAtIndexPathReceivedInvocations: [IndexPath] = []
     var didSelectRowAtIndexPathClosure: ((IndexPath) -> Void)?
 
     func didSelectRow(atIndexPath indexPath: IndexPath) {
         didSelectRowAtIndexPathCallsCount += 1
-        didSelectRowAtIndexPathCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         didSelectRowAtIndexPathReceivedIndexPath = indexPath
+        didSelectRowAtIndexPathReceivedInvocations.append(indexPath)
         didSelectRowAtIndexPathClosure?(indexPath)
     }
 
-    // MARK: - numberOfSections
+    //MARK: - numberOfSections
 
     var numberOfSectionsCallsCount = 0
-    var numberOfSectionsCalledOnQueueLabel: String?
     var numberOfSectionsCalled: Bool {
         return numberOfSectionsCallsCount > 0
     }
@@ -246,53 +238,51 @@ class CategoriesPresenterInputMock: CategoriesPresenterInput {
 
     func numberOfSections() -> Int {
         numberOfSectionsCallsCount += 1
-        numberOfSectionsCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         return numberOfSectionsClosure.map({ $0() }) ?? numberOfSectionsReturnValue
     }
 
-    // MARK: - numberOfRows
+    //MARK: - numberOfRows
 
     var numberOfRowsInSectionCallsCount = 0
-    var numberOfRowsInSectionCalledOnQueueLabel: String?
     var numberOfRowsInSectionCalled: Bool {
         return numberOfRowsInSectionCallsCount > 0
     }
     var numberOfRowsInSectionReceivedSection: Int?
+    var numberOfRowsInSectionReceivedInvocations: [Int] = []
     var numberOfRowsInSectionReturnValue: Int!
     var numberOfRowsInSectionClosure: ((Int) -> Int)?
 
     func numberOfRows(inSection section: Int) -> Int {
         numberOfRowsInSectionCallsCount += 1
-        numberOfRowsInSectionCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         numberOfRowsInSectionReceivedSection = section
+        numberOfRowsInSectionReceivedInvocations.append(section)
         return numberOfRowsInSectionClosure.map({ $0(section) }) ?? numberOfRowsInSectionReturnValue
     }
 
-    // MARK: - viewModelForRow
+    //MARK: - viewModelForRow
 
     var viewModelForRowAtIndexPathCallsCount = 0
-    var viewModelForRowAtIndexPathCalledOnQueueLabel: String?
     var viewModelForRowAtIndexPathCalled: Bool {
         return viewModelForRowAtIndexPathCallsCount > 0
     }
     var viewModelForRowAtIndexPathReceivedIndexPath: IndexPath?
+    var viewModelForRowAtIndexPathReceivedInvocations: [IndexPath] = []
     var viewModelForRowAtIndexPathReturnValue: CategoryCellViewModelProtocol!
     var viewModelForRowAtIndexPathClosure: ((IndexPath) -> CategoryCellViewModelProtocol)?
 
     func viewModelForRow(atIndexPath indexPath: IndexPath) -> CategoryCellViewModelProtocol {
         viewModelForRowAtIndexPathCallsCount += 1
-        viewModelForRowAtIndexPathCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         viewModelForRowAtIndexPathReceivedIndexPath = indexPath
+        viewModelForRowAtIndexPathReceivedInvocations.append(indexPath)
         return viewModelForRowAtIndexPathClosure.map({ $0(indexPath) }) ?? viewModelForRowAtIndexPathReturnValue
     }
 
 }
 class CategoriesPresenterOutputMock: CategoriesPresenterOutput {
 
-    // MARK: - reloadData
+    //MARK: - reloadData
 
     var reloadDataCallsCount = 0
-    var reloadDataCalledOnQueueLabel: String?
     var reloadDataCalled: Bool {
         return reloadDataCallsCount > 0
     }
@@ -300,44 +290,43 @@ class CategoriesPresenterOutputMock: CategoriesPresenterOutput {
 
     func reloadData() {
         reloadDataCallsCount += 1
-        reloadDataCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         reloadDataClosure?()
     }
 
-    // MARK: - displayTitle
+    //MARK: - displayTitle
 
     var displayTitleCallsCount = 0
-    var displayTitleCalledOnQueueLabel: String?
     var displayTitleCalled: Bool {
         return displayTitleCallsCount > 0
     }
     var displayTitleReceivedTitle: String?
+    var displayTitleReceivedInvocations: [String] = []
     var displayTitleClosure: ((String) -> Void)?
 
     func displayTitle(_ title: String) {
         displayTitleCallsCount += 1
-        displayTitleCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         displayTitleReceivedTitle = title
+        displayTitleReceivedInvocations.append(title)
         displayTitleClosure?(title)
     }
 
 }
 class CategoriesRepositoryInputMock: CategoriesRepositoryInput {
 
-    // MARK: - fetch
+    //MARK: - fetch
 
     var fetchSuccessFailureCallsCount = 0
-    var fetchSuccessFailureCalledOnQueueLabel: String?
     var fetchSuccessFailureCalled: Bool {
         return fetchSuccessFailureCallsCount > 0
     }
     var fetchSuccessFailureReceivedArguments: (success: ([CategoriesRepositoryResponseProtocol]) -> Void, failure: (CategoriesRepositoryError) -> Void)?
+    var fetchSuccessFailureReceivedInvocations: [(success: ([CategoriesRepositoryResponseProtocol]) -> Void, failure: (CategoriesRepositoryError) -> Void)] = []
     var fetchSuccessFailureClosure: ((@escaping ([CategoriesRepositoryResponseProtocol]) -> Void, @escaping (CategoriesRepositoryError) -> Void) -> Void)?
 
     func fetch(success: @escaping ([CategoriesRepositoryResponseProtocol]) -> Void, failure: @escaping (CategoriesRepositoryError) -> Void) {
         fetchSuccessFailureCallsCount += 1
-        fetchSuccessFailureCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         fetchSuccessFailureReceivedArguments = (success: success, failure: failure)
+        fetchSuccessFailureReceivedInvocations.append((success: success, failure: failure))
         fetchSuccessFailureClosure?(success, failure)
     }
 
@@ -385,10 +374,9 @@ class ProductsListCellViewModelProtocolMock: ProductsListCellViewModelProtocol {
 }
 class ProductsListInteractorInputMock: ProductsListInteractorInput {
 
-    // MARK: - retrieve
+    //MARK: - retrieve
 
     var retrieveCallsCount = 0
-    var retrieveCalledOnQueueLabel: String?
     var retrieveCalled: Bool {
         return retrieveCallsCount > 0
     }
@@ -396,31 +384,29 @@ class ProductsListInteractorInputMock: ProductsListInteractorInput {
 
     func retrieve() {
         retrieveCallsCount += 1
-        retrieveCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         retrieveClosure?()
     }
 
-    // MARK: - retrieve
+    //MARK: - retrieve
 
     var retrieveAtIndexForCategoryIndexCallsCount = 0
-    var retrieveAtIndexForCategoryIndexCalledOnQueueLabel: String?
     var retrieveAtIndexForCategoryIndexCalled: Bool {
         return retrieveAtIndexForCategoryIndexCallsCount > 0
     }
     var retrieveAtIndexForCategoryIndexReceivedArguments: (index: Int, categoryIndex: Int)?
+    var retrieveAtIndexForCategoryIndexReceivedInvocations: [(index: Int, categoryIndex: Int)] = []
     var retrieveAtIndexForCategoryIndexClosure: ((Int, Int) -> Void)?
 
     func retrieve(atIndex index: Int, forCategoryIndex categoryIndex: Int) {
         retrieveAtIndexForCategoryIndexCallsCount += 1
-        retrieveAtIndexForCategoryIndexCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         retrieveAtIndexForCategoryIndexReceivedArguments = (index: index, categoryIndex: categoryIndex)
+        retrieveAtIndexForCategoryIndexReceivedInvocations.append((index: index, categoryIndex: categoryIndex))
         retrieveAtIndexForCategoryIndexClosure?(index, categoryIndex)
     }
 
-    // MARK: - numberOfCategories
+    //MARK: - numberOfCategories
 
     var numberOfCategoriesCallsCount = 0
-    var numberOfCategoriesCalledOnQueueLabel: String?
     var numberOfCategoriesCalled: Bool {
         return numberOfCategoriesCallsCount > 0
     }
@@ -429,70 +415,68 @@ class ProductsListInteractorInputMock: ProductsListInteractorInput {
 
     func numberOfCategories() -> Int {
         numberOfCategoriesCallsCount += 1
-        numberOfCategoriesCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         return numberOfCategoriesClosure.map({ $0() }) ?? numberOfCategoriesReturnValue
     }
 
-    // MARK: - numberOfItems
+    //MARK: - numberOfItems
 
     var numberOfItemsForCategoryIndexCallsCount = 0
-    var numberOfItemsForCategoryIndexCalledOnQueueLabel: String?
     var numberOfItemsForCategoryIndexCalled: Bool {
         return numberOfItemsForCategoryIndexCallsCount > 0
     }
     var numberOfItemsForCategoryIndexReceivedIndex: Int?
+    var numberOfItemsForCategoryIndexReceivedInvocations: [Int] = []
     var numberOfItemsForCategoryIndexReturnValue: Int!
     var numberOfItemsForCategoryIndexClosure: ((Int) -> Int)?
 
     func numberOfItems(forCategoryIndex index: Int) -> Int {
         numberOfItemsForCategoryIndexCallsCount += 1
-        numberOfItemsForCategoryIndexCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         numberOfItemsForCategoryIndexReceivedIndex = index
+        numberOfItemsForCategoryIndexReceivedInvocations.append(index)
         return numberOfItemsForCategoryIndexClosure.map({ $0(index) }) ?? numberOfItemsForCategoryIndexReturnValue
     }
 
-    // MARK: - item
+    //MARK: - item
 
     var itemAtIndexForCategoryIndexCallsCount = 0
-    var itemAtIndexForCategoryIndexCalledOnQueueLabel: String?
     var itemAtIndexForCategoryIndexCalled: Bool {
         return itemAtIndexForCategoryIndexCallsCount > 0
     }
     var itemAtIndexForCategoryIndexReceivedArguments: (index: Int, categoryIndex: Int)?
+    var itemAtIndexForCategoryIndexReceivedInvocations: [(index: Int, categoryIndex: Int)] = []
     var itemAtIndexForCategoryIndexReturnValue: ProductsListItemProtocol!
     var itemAtIndexForCategoryIndexClosure: ((Int, Int) -> ProductsListItemProtocol)?
 
     func item(atIndex index: Int, forCategoryIndex categoryIndex: Int) -> ProductsListItemProtocol {
         itemAtIndexForCategoryIndexCallsCount += 1
-        itemAtIndexForCategoryIndexCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         itemAtIndexForCategoryIndexReceivedArguments = (index: index, categoryIndex: categoryIndex)
+        itemAtIndexForCategoryIndexReceivedInvocations.append((index: index, categoryIndex: categoryIndex))
         return itemAtIndexForCategoryIndexClosure.map({ $0(index, categoryIndex) }) ?? itemAtIndexForCategoryIndexReturnValue
     }
 
-    // MARK: - selectItem
+    //MARK: - selectItem
 
     var selectItemAtIndexForCategoryIndexCallsCount = 0
-    var selectItemAtIndexForCategoryIndexCalledOnQueueLabel: String?
     var selectItemAtIndexForCategoryIndexCalled: Bool {
         return selectItemAtIndexForCategoryIndexCallsCount > 0
     }
     var selectItemAtIndexForCategoryIndexReceivedArguments: (index: Int, categoryIndex: Int)?
+    var selectItemAtIndexForCategoryIndexReceivedInvocations: [(index: Int, categoryIndex: Int)] = []
     var selectItemAtIndexForCategoryIndexClosure: ((Int, Int) -> Void)?
 
     func selectItem(atIndex index: Int, forCategoryIndex categoryIndex: Int) {
         selectItemAtIndexForCategoryIndexCallsCount += 1
-        selectItemAtIndexForCategoryIndexCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         selectItemAtIndexForCategoryIndexReceivedArguments = (index: index, categoryIndex: categoryIndex)
+        selectItemAtIndexForCategoryIndexReceivedInvocations.append((index: index, categoryIndex: categoryIndex))
         selectItemAtIndexForCategoryIndexClosure?(index, categoryIndex)
     }
 
 }
 class ProductsListInteractorOutputMock: ProductsListInteractorOutput {
 
-    // MARK: - didReceive
+    //MARK: - didReceive
 
     var didReceiveCallsCount = 0
-    var didReceiveCalledOnQueueLabel: String?
     var didReceiveCalled: Bool {
         return didReceiveCallsCount > 0
     }
@@ -500,14 +484,12 @@ class ProductsListInteractorOutputMock: ProductsListInteractorOutput {
 
     func didReceive() {
         didReceiveCallsCount += 1
-        didReceiveCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         didReceiveClosure?()
     }
 
-    // MARK: - didReceiveNext
+    //MARK: - didReceiveNext
 
     var didReceiveNextCallsCount = 0
-    var didReceiveNextCalledOnQueueLabel: String?
     var didReceiveNextCalled: Bool {
         return didReceiveNextCallsCount > 0
     }
@@ -515,14 +497,12 @@ class ProductsListInteractorOutputMock: ProductsListInteractorOutput {
 
     func didReceiveNext() {
         didReceiveNextCallsCount += 1
-        didReceiveNextCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         didReceiveNextClosure?()
     }
 
-    // MARK: - didReceiveError
+    //MARK: - didReceiveError
 
     var didReceiveErrorCallsCount = 0
-    var didReceiveErrorCalledOnQueueLabel: String?
     var didReceiveErrorCalled: Bool {
         return didReceiveErrorCallsCount > 0
     }
@@ -530,7 +510,6 @@ class ProductsListInteractorOutputMock: ProductsListInteractorOutput {
 
     func didReceiveError() {
         didReceiveErrorCallsCount += 1
-        didReceiveErrorCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         didReceiveErrorClosure?()
     }
 
@@ -553,10 +532,9 @@ class ProductsListItemProtocolMock: ProductsListItemProtocol {
 }
 class ProductsListPresenterInputMock: ProductsListPresenterInput {
 
-    // MARK: - viewDidLoad
+    //MARK: - viewDidLoad
 
     var viewDidLoadCallsCount = 0
-    var viewDidLoadCalledOnQueueLabel: String?
     var viewDidLoadCalled: Bool {
         return viewDidLoadCallsCount > 0
     }
@@ -564,31 +542,29 @@ class ProductsListPresenterInputMock: ProductsListPresenterInput {
 
     func viewDidLoad() {
         viewDidLoadCallsCount += 1
-        viewDidLoadCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         viewDidLoadClosure?()
     }
 
-    // MARK: - didSelectRow
+    //MARK: - didSelectRow
 
     var didSelectRowAtIndexPathCallsCount = 0
-    var didSelectRowAtIndexPathCalledOnQueueLabel: String?
     var didSelectRowAtIndexPathCalled: Bool {
         return didSelectRowAtIndexPathCallsCount > 0
     }
     var didSelectRowAtIndexPathReceivedIndexPath: IndexPath?
+    var didSelectRowAtIndexPathReceivedInvocations: [IndexPath] = []
     var didSelectRowAtIndexPathClosure: ((IndexPath) -> Void)?
 
     func didSelectRow(atIndexPath indexPath: IndexPath) {
         didSelectRowAtIndexPathCallsCount += 1
-        didSelectRowAtIndexPathCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         didSelectRowAtIndexPathReceivedIndexPath = indexPath
+        didSelectRowAtIndexPathReceivedInvocations.append(indexPath)
         didSelectRowAtIndexPathClosure?(indexPath)
     }
 
-    // MARK: - numberOfSections
+    //MARK: - numberOfSections
 
     var numberOfSectionsCallsCount = 0
-    var numberOfSectionsCalledOnQueueLabel: String?
     var numberOfSectionsCalled: Bool {
         return numberOfSectionsCallsCount > 0
     }
@@ -597,70 +573,68 @@ class ProductsListPresenterInputMock: ProductsListPresenterInput {
 
     func numberOfSections() -> Int {
         numberOfSectionsCallsCount += 1
-        numberOfSectionsCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         return numberOfSectionsClosure.map({ $0() }) ?? numberOfSectionsReturnValue
     }
 
-    // MARK: - numberOfRows
+    //MARK: - numberOfRows
 
     var numberOfRowsInSectionCallsCount = 0
-    var numberOfRowsInSectionCalledOnQueueLabel: String?
     var numberOfRowsInSectionCalled: Bool {
         return numberOfRowsInSectionCallsCount > 0
     }
     var numberOfRowsInSectionReceivedSection: Int?
+    var numberOfRowsInSectionReceivedInvocations: [Int] = []
     var numberOfRowsInSectionReturnValue: Int!
     var numberOfRowsInSectionClosure: ((Int) -> Int)?
 
     func numberOfRows(inSection section: Int) -> Int {
         numberOfRowsInSectionCallsCount += 1
-        numberOfRowsInSectionCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         numberOfRowsInSectionReceivedSection = section
+        numberOfRowsInSectionReceivedInvocations.append(section)
         return numberOfRowsInSectionClosure.map({ $0(section) }) ?? numberOfRowsInSectionReturnValue
     }
 
-    // MARK: - viewModelForRow
+    //MARK: - viewModelForRow
 
     var viewModelForRowAtIndexPathCallsCount = 0
-    var viewModelForRowAtIndexPathCalledOnQueueLabel: String?
     var viewModelForRowAtIndexPathCalled: Bool {
         return viewModelForRowAtIndexPathCallsCount > 0
     }
     var viewModelForRowAtIndexPathReceivedIndexPath: IndexPath?
+    var viewModelForRowAtIndexPathReceivedInvocations: [IndexPath] = []
     var viewModelForRowAtIndexPathReturnValue: ProductsListCellViewModelProtocol!
     var viewModelForRowAtIndexPathClosure: ((IndexPath) -> ProductsListCellViewModelProtocol)?
 
     func viewModelForRow(atIndexPath indexPath: IndexPath) -> ProductsListCellViewModelProtocol {
         viewModelForRowAtIndexPathCallsCount += 1
-        viewModelForRowAtIndexPathCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         viewModelForRowAtIndexPathReceivedIndexPath = indexPath
+        viewModelForRowAtIndexPathReceivedInvocations.append(indexPath)
         return viewModelForRowAtIndexPathClosure.map({ $0(indexPath) }) ?? viewModelForRowAtIndexPathReturnValue
     }
 
-    // MARK: - willDisplayItem
+    //MARK: - willDisplayItem
 
     var willDisplayItemAtIndexPathCallsCount = 0
-    var willDisplayItemAtIndexPathCalledOnQueueLabel: String?
     var willDisplayItemAtIndexPathCalled: Bool {
         return willDisplayItemAtIndexPathCallsCount > 0
     }
     var willDisplayItemAtIndexPathReceivedIndexPath: IndexPath?
+    var willDisplayItemAtIndexPathReceivedInvocations: [IndexPath] = []
     var willDisplayItemAtIndexPathClosure: ((IndexPath) -> Void)?
 
     func willDisplayItem(atIndexPath indexPath: IndexPath) {
         willDisplayItemAtIndexPathCallsCount += 1
-        willDisplayItemAtIndexPathCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         willDisplayItemAtIndexPathReceivedIndexPath = indexPath
+        willDisplayItemAtIndexPathReceivedInvocations.append(indexPath)
         willDisplayItemAtIndexPathClosure?(indexPath)
     }
 
 }
 class ProductsListPresenterOutputMock: ProductsListPresenterOutput {
 
-    // MARK: - reloaData
+    //MARK: - reloaData
 
     var reloaDataCallsCount = 0
-    var reloaDataCalledOnQueueLabel: String?
     var reloaDataCalled: Bool {
         return reloaDataCallsCount > 0
     }
@@ -668,41 +642,40 @@ class ProductsListPresenterOutputMock: ProductsListPresenterOutput {
 
     func reloaData() {
         reloaDataCallsCount += 1
-        reloaDataCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         reloaDataClosure?()
     }
 
-    // MARK: - displayError
+    //MARK: - displayError
 
     var displayErrorCallsCount = 0
-    var displayErrorCalledOnQueueLabel: String?
     var displayErrorCalled: Bool {
         return displayErrorCallsCount > 0
     }
     var displayErrorReceivedMessage: String?
+    var displayErrorReceivedInvocations: [String] = []
     var displayErrorClosure: ((String) -> Void)?
 
     func displayError(_ message: String) {
         displayErrorCallsCount += 1
-        displayErrorCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         displayErrorReceivedMessage = message
+        displayErrorReceivedInvocations.append(message)
         displayErrorClosure?(message)
     }
 
-    // MARK: - displayTitle
+    //MARK: - displayTitle
 
     var displayTitleCallsCount = 0
-    var displayTitleCalledOnQueueLabel: String?
     var displayTitleCalled: Bool {
         return displayTitleCallsCount > 0
     }
     var displayTitleReceivedTitle: String?
+    var displayTitleReceivedInvocations: [String] = []
     var displayTitleClosure: ((String) -> Void)?
 
     func displayTitle(_ title: String) {
         displayTitleCallsCount += 1
-        displayTitleCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         displayTitleReceivedTitle = title
+        displayTitleReceivedInvocations.append(title)
         displayTitleClosure?(title)
     }
 
@@ -714,20 +687,20 @@ class ProductsListPriceItemProtocolMock: ProductsListPriceItemProtocol {
 }
 class ProductsListRepositoryInputMock: ProductsListRepositoryInput {
 
-    // MARK: - fetch
+    //MARK: - fetch
 
     var fetchWithSuccessFailureCallsCount = 0
-    var fetchWithSuccessFailureCalledOnQueueLabel: String?
     var fetchWithSuccessFailureCalled: Bool {
         return fetchWithSuccessFailureCallsCount > 0
     }
     var fetchWithSuccessFailureReceivedArguments: (parameters: ProductsListRepositoryParametersProtocol, success: (ProductsListRepositoryResponseProtocol) -> Void, failure: (ProductsListRepositoryError) -> Void)?
+    var fetchWithSuccessFailureReceivedInvocations: [(parameters: ProductsListRepositoryParametersProtocol, success: (ProductsListRepositoryResponseProtocol) -> Void, failure: (ProductsListRepositoryError) -> Void)] = []
     var fetchWithSuccessFailureClosure: ((ProductsListRepositoryParametersProtocol, @escaping (ProductsListRepositoryResponseProtocol) -> Void, @escaping (ProductsListRepositoryError) -> Void) -> Void)?
 
     func fetch(with parameters: ProductsListRepositoryParametersProtocol,             success: @escaping (ProductsListRepositoryResponseProtocol) -> Void,             failure: @escaping (ProductsListRepositoryError) -> Void) {
         fetchWithSuccessFailureCallsCount += 1
-        fetchWithSuccessFailureCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         fetchWithSuccessFailureReceivedArguments = (parameters: parameters, success: success, failure: failure)
+        fetchWithSuccessFailureReceivedInvocations.append((parameters: parameters, success: success, failure: failure))
         fetchWithSuccessFailureClosure?(parameters, success, failure)
     }
 
@@ -771,10 +744,9 @@ class ProductsListRepositoryResponseProtocolMock: ProductsListRepositoryResponse
 }
 class RouterInputMock: RouterInput {
 
-    // MARK: - initialViewController
+    //MARK: - initialViewController
 
     var initialViewControllerCallsCount = 0
-    var initialViewControllerCalledOnQueueLabel: String?
     var initialViewControllerCalled: Bool {
         return initialViewControllerCallsCount > 0
     }
@@ -783,24 +755,23 @@ class RouterInputMock: RouterInput {
 
     func initialViewController() -> UIViewController {
         initialViewControllerCallsCount += 1
-        initialViewControllerCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         return initialViewControllerClosure.map({ $0() }) ?? initialViewControllerReturnValue
     }
 
-    // MARK: - routeToProductsList
+    //MARK: - routeToProductsList
 
     var routeToProductsListWithCallsCount = 0
-    var routeToProductsListWithCalledOnQueueLabel: String?
     var routeToProductsListWithCalled: Bool {
         return routeToProductsListWithCallsCount > 0
     }
     var routeToProductsListWithReceivedCategoryId: Int?
+    var routeToProductsListWithReceivedInvocations: [Int] = []
     var routeToProductsListWithClosure: ((Int) -> Void)?
 
     func routeToProductsList(with categoryId: Int) {
         routeToProductsListWithCallsCount += 1
-        routeToProductsListWithCalledOnQueueLabel = String(cString: __dispatch_queue_get_label(nil))
         routeToProductsListWithReceivedCategoryId = categoryId
+        routeToProductsListWithReceivedInvocations.append(categoryId)
         routeToProductsListWithClosure?(categoryId)
     }
 

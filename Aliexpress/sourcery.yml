@@ -1,0 +1,12 @@
+sources:
+    - AliexpressTests
+templates:
+    - SourceryTemplates/AutoMockable.stencil
+project:
+  file: Aliexpress.xcodeproj
+  target:
+    name: Aliexpress
+    module: Aliexpress
+output: AliexpressTests/Generated/Sourcery/Mocks.swift
+args:
+  testableImport: "Aliexpress"

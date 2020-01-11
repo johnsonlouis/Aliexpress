@@ -57,7 +57,6 @@
 		2CB3A39F21FCA49300E82209 /* ProductsListInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3A39E21FCA49300E82209 /* ProductsListInteractorOutput.swift */; };
 		2CB3A3A121FCA59700E82209 /* ProductsListInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3A3A021FCA59700E82209 /* ProductsListInteractorInput.swift */; };
 		2CB3A3A421FCD57500E82209 /* RouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3A3A321FCD57500E82209 /* RouterInput.swift */; };
-		2CB3A3A621FCD71900E82209 /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3A3A521FCD71900E82209 /* Mocks.swift */; };
 		2CB3A3AA21FCE37200E82209 /* ProductsListPresenterOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3A3A921FCE37200E82209 /* ProductsListPresenterOutput.swift */; };
 		2CB3A3AC21FCE38F00E82209 /* ProductsListPresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3A3AB21FCE38F00E82209 /* ProductsListPresenterInput.swift */; };
 		2CB3A3AE21FCFBD100E82209 /* ProductsListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3A3AD21FCFBD100E82209 /* ProductsListInteractorTests.swift */; };
@@ -65,6 +64,7 @@
 		396AB48AED5061230F4B3CBF /* libPods-Aliexpress-AliexpressTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1040050AE16921D5EBB835E0 /* libPods-Aliexpress-AliexpressTests.a */; };
 		A44572E260617A32B771EC9A /* libPods-AliexpressUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 756533B713FC5D6DC0351575 /* libPods-AliexpressUITests.a */; };
 		BAC71AA4E01868902763A748 /* libPods-Aliexpress.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CFBDE6DE4C7520E250805E /* libPods-Aliexpress.a */; };
+		CE2C197523C948020098DC63 /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C197423C948020098DC63 /* Mocks.swift */; };
 		CEC5AD9A23C92AC00073CC3A /* colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = CEC5AD9923C92AC00073CC3A /* colors.txt */; };
 		CEC5ADA323C92BB60073CC3A /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5AD9D23C92BB50073CC3A /* Fonts.swift */; };
 		CEC5ADA423C92BB60073CC3A /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5AD9E23C92BB60073CC3A /* Assets.swift */; };
@@ -151,7 +151,6 @@
 		2CB3A39E21FCA49300E82209 /* ProductsListInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListInteractorOutput.swift; sourceTree = "<group>"; };
 		2CB3A3A021FCA59700E82209 /* ProductsListInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListInteractorInput.swift; sourceTree = "<group>"; };
 		2CB3A3A321FCD57500E82209 /* RouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterInput.swift; sourceTree = "<group>"; };
-		2CB3A3A521FCD71900E82209 /* Mocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
 		2CB3A3A921FCE37200E82209 /* ProductsListPresenterOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListPresenterOutput.swift; sourceTree = "<group>"; };
 		2CB3A3AB21FCE38F00E82209 /* ProductsListPresenterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListPresenterInput.swift; sourceTree = "<group>"; };
 		2CB3A3AD21FCFBD100E82209 /* ProductsListInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListInteractorTests.swift; sourceTree = "<group>"; };
@@ -159,6 +158,7 @@
 		72CFBDE6DE4C7520E250805E /* libPods-Aliexpress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Aliexpress.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		746002C8CB06A6FC19C8A9DE /* Pods-Aliexpress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aliexpress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aliexpress/Pods-Aliexpress.debug.xcconfig"; sourceTree = "<group>"; };
 		756533B713FC5D6DC0351575 /* libPods-AliexpressUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AliexpressUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2C197423C948020098DC63 /* Mocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
 		CEC5AD9923C92AC00073CC3A /* colors.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = colors.txt; sourceTree = "<group>"; };
 		CEC5AD9D23C92BB50073CC3A /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		CEC5AD9E23C92BB60073CC3A /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
@@ -270,7 +270,7 @@
 		2C61127A21FBA08C00B6A86D /* Generated */ = {
 			isa = PBXGroup;
 			children = (
-				2CB3A3A521FCD71900E82209 /* Mocks.swift */,
+				CE2C197123C942E20098DC63 /* Sourcery */,
 			);
 			path = Generated;
 			sourceTree = "<group>";
@@ -518,6 +518,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CE2C197123C942E20098DC63 /* Sourcery */ = {
+			isa = PBXGroup;
+			children = (
+				CE2C197423C948020098DC63 /* Mocks.swift */,
+			);
+			path = Sourcery;
+			sourceTree = "<group>";
+		};
 		CEC5AD9723C92A9A0073CC3A /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -566,6 +574,7 @@
 				2C371FDC21FB8A6100CDC8A5 /* Frameworks */,
 				2C371FDD21FB8A6100CDC8A5 /* Resources */,
 				2CDF2C5D21FB8F85000A7221 /* SwiftGen */,
+				CE2C197023C93B870098DC63 /* Sourcery */,
 			);
 			buildRules = (
 			);
@@ -735,6 +744,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CE2C197023C93B870098DC63 /* Sourcery */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Sourcery;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which $PODS_ROOT/Sourcery/bin/sourcery >/dev/null; then\n$PODS_ROOT/Sourcery/bin/sourcery --config sourcery.yml\nelse\necho \"warning: Sourcery not installed in target yatta, download it from https://github.com/krzysztofzablocki/Sourcery\"\nfi\n";
+		};
 		CFF391A9874A0392A6AFBA68 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -839,8 +866,8 @@
 				2CB3A33221FBA9FF00E82209 /* CategoriesRepositoryTests.swift in Sources */,
 				2CB3A35221FBC27B00E82209 /* ProductPriceTests.swift in Sources */,
 				2CB3A36021FBC73D00E82209 /* ProductsListTests.swift in Sources */,
-				2CB3A3A621FCD71900E82209 /* Mocks.swift in Sources */,
 				2CB3A35021FBBEB700E82209 /* File.swift in Sources */,
+				CE2C197523C948020098DC63 /* Mocks.swift in Sources */,
 				2CB3A34E21FBBE5900E82209 /* ProductItemTests.swift in Sources */,
 				2CB3A35821FBC3EB00E82209 /* ProductAggregationTests.swift in Sources */,
 				2CB3A36421FBCC7500E82209 /* ProductsListRepositoryTests.swift in Sources */,
